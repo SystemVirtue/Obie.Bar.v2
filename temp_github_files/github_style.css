@@ -1,0 +1,342 @@
+/* --- Basic Setup & Colors --- */
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+html {
+    height: 100%; /* Ensure html takes full height */
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: red; /* Red background */
+    color: #fff; /* Default text color to white for contrast */
+    height: 100vh; /* Full viewport height */
+    display: grid; /* Enable Grid Layout */
+    grid-template-rows: 10% auto; /* Header 10%, Rest auto */
+    grid-template-columns: 10% auto; /* Sidebar 10%, Main auto */
+    grid-template-areas:
+        "header header"
+        "sidebar main";
+    overflow: hidden; /* Prevent body itself from scrolling */
+}
+/* --- Grid Area Assignments --- */
+.grid-header {
+    grid-area: header;
+    background-color: #000; /* Header background */
+    color: #fff;
+    display: flex; /* Use flex to layout title row and ticker row */
+    flex-direction: column; /* Stack title row and ticker row */
+    justify-content: center; /* Center items vertically */
+    padding: 5px 15px; /* Padding top/bottom, left/right */
+    border-bottom: 2px solid #555;
+    overflow: hidden; /* Hide ticker overflow */
+}
+
+/* Header Content Row (Title + Now Playing/Skip) */
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Space between title area and now playing area */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4px; /* Space between title row and ticker row */
+}
+
+/* Centered Title Area */
+.header-title-area {
+    flex-grow: 1; /* Allow title area to take space */
+    text-align: center; /* Center the title spans within */
+    font-size: 2.2em; /* Large font size */
+    font-weight: bold;
+    white-space: nowrap;
+}
+.header-title-area .title-white {
+    color: white;
+}
+.header-title-area .title-red {
+    color: red;
+    margin-left: 0.2em; /* Optional space */
+}
+
+/* Right-aligned Now Playing & Skip Area */
+.header-now-playing-area {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: flex-end; /* Align to the right */
+    flex-shrink: 0; /* Don't let this group shrink too much */
+    margin-left: 20px; /* Ensure space from center title */
+}
+
+#now-playing {
+    font-size: 0.9em; /* Medium font size */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: red; /* "NOW PLAYING :" is red */
+    margin-right: 10px; /* Space before skip button */
+    /* Max width if needed to prevent pushing title */
+    /* max-width: 400px; */
+}
+#now-playing .artist { /* Artist name inside Now Playing */
+    color: white !important; /* Override general .artist (White) */
+    font-weight: bold;
+}
+#now-playing .title { /* Track Title inside Now Playing */
+    color: white !important; /* Override general .title (White) */
+}
+#now-playing .separator { /* Hyphen inside Now Playing */
+    color: white !important; /* Override general .separator (White) */
+    margin: 0 0.25em;
+}
+
+#skip-button {
+    background-color: #d9534f;
+    color: white;
+    border: 1px solid #c9302c;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0; /* Prevent button shrinking */
+    transition: background-color 0.2s ease;
+}
+#skip-button:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+#skip-button:disabled {
+    background-color: #777;
+    border-color: #555;
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+
+/* Coming Up Ticker Row */
+#coming-up-ticker-container {
+    width: 100%; /* Take full width of header */
+    font-size: 0.9em; /* Medium font size */
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left; /* Text starts from left for marquee */
+    color: white; /* Default text color for "COMING UP :" */
+    padding-top: 4px; /* Space above ticker */
+    border-top: 1px solid #444; /* Optional subtle separator */
+}
+#coming-up-ticker {
+    display: inline-block;
+    padding-left: 100%; /* Start off screen */
+    animation: marquee 30s linear infinite; /* Adjust duration for speed */
+}
+#coming-up-ticker.empty {
+    animation: none;
+    display: none;
+}
+/* Keyframes for ticker */
+@keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+/* Styles for text within the ticker (Artist red, Title white) */
+#coming-up-ticker .artist {
+    color: red;
+    font-weight: bold;
+}
+#coming-up-ticker .title {
+    color: white;
+}
+#coming-up-ticker .separator {
+    color: white;
+    margin: 0 0.25em;
+}
+#coming-up-ticker .upcoming-separator {
+    color: #aaa; /* Dim color for '...' */
+    margin: 0 0.75em; /* More space around '...' */
+}
+
+.grid-sidebar {
+    grid-area: sidebar;
+    background-color: #444; /* Sidebar background */
+    padding: 15px 5px;
+    overflow-y: auto; /* Scroll sidebar if needed */
+    border-right: 2px solid #555;
+}
+
+.grid-main {
+    grid-area: main;
+    background-color: #000; /* Main content background */
+    padding: 10px 15px; /* Adjusted padding */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Prevent main from scrolling */
+    position: relative;
+}
+
+/* --- Sidebar Button Styling --- */
+#letter-filter-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.letter-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    width: 40%;
+}
+.letter-button {
+    background-color: black; color: white; border: 1px solid white;
+    border-radius: 8px; width: 75%; aspect-ratio: 1 / 1;
+    font-size: 1.9em; font-weight: bold; cursor: pointer;
+    display: flex; justify-content: center; align-items: center;
+    transition: background-color 0.2s ease; user-select: none;
+}
+.letter-button:hover { background-color: #333; }
+.letter-button.selected { background-color: green; border-color: yellow; }
+
+/* --- Main Content Area Controls Styling --- */
+.controls {
+    padding-bottom: 10px; border-bottom: 1px solid #555; margin-bottom: 10px;
+    display: flex; flex-direction: column; align-items: stretch;
+    color: #eee; flex-shrink: 0;
+}
+#genre-filter-section {
+    display: flex; align-items: center; margin-bottom: 8px; width: 100%;
+}
+.scroll-arrow {
+    background-color: #555; color: #fff; border: 1px solid #777;
+    border-radius: 4px; padding: 5px 8px; font-size: 1.2em;
+    font-weight: bold; cursor: pointer; flex-shrink: 0; margin: 0 5px;
+    line-height: 1;
+}
+.scroll-arrow:disabled { background-color: #333; color: #666; cursor: not-allowed; opacity: 0.6; }
+#genre-buttons-container {
+    flex-grow: 1; display: flex; overflow-x: hidden; white-space: nowrap;
+    padding: 5px 0; scroll-behavior: smooth;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, black 10px, black 95%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, black 10px, black 95%, transparent 100%);
+}
+.genre-button {
+    display: inline-block; background-color: #444; color: #fff;
+    border: 1px solid #666; border-radius: 15px; padding: 6px 12px;
+    margin: 0 4px; font-size: 0.9em; cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    flex-shrink: 0; user-select: none;
+}
+.genre-button:hover { background-color: #555; border-color: #888; }
+.genre-button.selected { background-color: green; border-color: yellow; font-weight: bold; }
+#status-message {
+    font-style: italic; color: #ccc; text-align: center; font-size: 0.9em; padding-top: 5px;
+}
+
+/* --- Video Grid Styling --- */
+#video-grid-container {
+    flex-grow: 1; overflow-y: auto;
+    scrollbar-width: thick; /* Firefox */
+    scrollbar-color: #888 #333; /* Firefox */
+}
+#video-grid-container::-webkit-scrollbar { width: 18px; }
+#video-grid-container::-webkit-scrollbar-track { background: #fff; border-radius: 9px; }
+#video-grid-container::-webkit-scrollbar-thumb { background-color: #000; border-radius: 1px; border: 0px solid #000; }
+#video-grid-container::-webkit-scrollbar-thumb:hover { background: #000; }
+#video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Always 4 columns */
+    gap: 18px;
+    padding: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1280px) {
+    html, body {
+        width: 1280px;
+        min-width: 1280px;
+        max-width: 1280px;
+        height: 1024px;
+        min-height: 1024px;
+        max-height: 1024px;
+        overflow: auto;
+    }
+    #video-grid {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .grid-main, #video-grid-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+.video-tile {
+    background-color: #000; border: 1px solid #000; border-radius: 6px;
+    padding: 3px; text-align: center; display: flex; flex-direction: column;
+    justify-content: space-between; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    color: #eee; cursor: pointer;
+}
+.video-tile:hover { transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-color: #777; }
+.artist-name {
+    font-size: 1.2em; font-weight: bold; margin-bottom: 4px; color: #fff;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.video-tile img { max-width: 100%; height: auto; display: block; margin: 0px auto; border-radius: 0px; border: 0px solid #000; }
+.song-title { font-size: 0.9em; margin-top: 4px; color: #ccc; word-wrap: break-word; min-height: 2.5em; }
+
+/* --- Confirmation Popup Styles --- */
+#confirmation-popup-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex; justify-content: center; align-items: center;
+    z-index: 1020; /* Above potential future elements */
+    opacity: 0; visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0s linear 0.2s;
+}
+#confirmation-popup-overlay.visible { opacity: 1; visibility: visible; transition: opacity 0.2s ease; }
+#confirmation-popup {
+    background-color: #000; border: 2px solid #fff; border-radius: 8px;
+    padding: 20px; text-align: center; max-width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4); color: #fff;
+}
+#confirmation-popup h2 { margin-top: 0; margin-bottom: 15px; font-size: 1.3em; }
+#popup-content { margin-bottom: 20px; }
+#popup-thumbnail { max-width: 80%; height: auto; display: block; margin: 0 auto 10px auto; border: 1px solid #444; }
+#popup-artist { font-weight: bold; font-size: 1.1em; margin: 5px 0; }
+#popup-title { font-size: 1em; margin: 5px 0; color: #ccc; }
+.popup-buttons { display: flex; justify-content: space-around; }
+.popup-button { padding: 8px 25px; border: none; border-radius: 5px; font-size: 1em; font-weight: bold; cursor: pointer; transition: opacity 0.2s ease; }
+.popup-button:hover { opacity: 0.85; }
+.popup-button.no { background-color: red; color: white; }
+.popup-button.yes { background-color: green; color: white; }
+
+/* Utility class - use visibility/opacity */
+.hidden {
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s !important;
+    /* display: none; /* Avoid if possible */
+}
+
+/* --- Header Text Styling --- */
+#now-playing .artist,
+#coming-up-ticker .artist {
+    color: red;
+    font-weight: bold;
+}
+#now-playing .title,
+#coming-up-ticker .title {
+    color: white;
+}
+#now-playing .separator,
+#coming-up-ticker .separator {
+    color: white;
+    margin: 0 0.25em;
+}
+#coming-up-ticker .upcoming-separator {
+    color: #aaa;
+    margin: 0 0.5em;
+}

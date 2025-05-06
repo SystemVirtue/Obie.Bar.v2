@@ -1,0 +1,684 @@
+:root {
+    --bg-color: #1a1a1a; /* Dark background */
+    --container-bg: #000000;
+    --header-bg: #000000;
+    --grid-bg: #000000;
+    --keyboard-bg: #000000;
+    --button-inactive-bg: #505050; /* Greyish */
+    --button-inactive-border: #808080;
+    --button-inactive-text: #d0d0d0;
+    --button-active-bg: #00a000; /* Green */
+    --button-active-border: #30e030;
+    --button-active-text: #ffffff;
+    --button-back-bg: #c00000; /* Red */
+    --button-back-border: #ff4040;
+    --button-back-text: #ffffff;
+    --scrollbar-bg: #333333;
+    --scrollbar-button-bg: #c00000; /* Red */
+    --scrollbar-button-border: #ff4040;
+    --scrollbar-thumb-bg: #a00000; /* Darker Red */
+    --scrollbar-thumb-border: #ff4040;
+    --grid-item-bg: #ffffff;
+    --grid-item-border: #333333;
+    --grid-item-text: #000000;
+    --keyboard-key-bg: #ffffff;
+    --keyboard-key-border: #555555;
+    --keyboard-key-text: #000000;
+    --header-text-venue: #ff0000; /* Red */
+    --header-text-playing: white; /* Red */
+    --header-text-credit: #ff0000; /* Red */
+    --header-text-default: red; /* White */
+    --glow-active: 0 0 8px 3px var(--button-active-border);
+    --glow-inactive: 0 0 6px 2px var(--button-inactive-border);
+    --glow-back: 0 0 8px 3px var(--button-back-border);
+    --glow-scroll: 0 0 8px 3px var(--scrollbar-button-border);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Prevent browser scrollbars */
+    background-color: var(--bg-color);
+    font-family: Arial, Helvetica, sans-serif; /* Or a more specific font */
+    font-family: 'Avenir Condensed', sans-serif; /* For venue name */
+    color: white;
+}
+
+.jukebox-container {
+    width: 1280px; /* Fixed width */
+    height: 1024px; /* Fixed height */
+    margin: 0 auto; /* Center if needed, though likely full screen */
+    background-color: var(--container-bg);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #444; /* Optional outer border */
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: var(--header-bg);
+    padding: 10px 20px;
+    height: 80px; /* From layout sketch */
+    flex-shrink: 0;
+    border-bottom: 2px solid #333;
+}
+
+.header-left {
+    flex: 1;
+    text-align: left;
+    color: var(--header-text-venue);
+    font-size: 1.8em;
+    padding: 5px;
+    font-family: 'Avenir Condensed', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.header-center {
+    width: 640px; /* From layout sketch */
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.4;
+    color: var(--header-text-default);
+}
+.header-center div:first-child span { color: var(--header-text-playing); }
+.header-center div:last-child span {
+    color: red;
+    font-weight: bold;
+}
+
+
+.header-right {
+    width: 320px;
+    text-align: right;
+    font-size: 1.em;
+    font-weight: bold;
+    color: white;
+}
+
+.header-right.free-play {
+    color: white;
+}
+
+.header-right.free-play {
+    color: white;
+}
+
+/* Mode Select / Search Bar */
+.mode-select {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    height: 80px; /* Approx height */
+    flex-shrink: 0;
+    background-color: var(--container-bg); /* Match container */
+    border-bottom: 2px solid #333;
+}
+
+.mode-button, .control-button {
+    padding: 6px 12px;
+    margin: 0 10px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid transparent; /* Reserve space for border */
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    flex-grow: 1; /* Make buttons fill space initially */
+    text-align: center;
+}
+
+.mode-button {
+    background-color: var(--button-inactive-bg);
+    border-color: var(--button-inactive-border);
+    color: var(--button-inactive-text);
+    box-shadow: var(--glow-inactive);
+}
+.mode-button.active {
+    background-color: var(--button-active-bg);
+    border-color: var(--button-active-border);
+    color: var(--button-active-text);
+    box-shadow: var(--glow-active);
+}
+.mode-button:hover:not(.active) {
+    background-color: #666;
+}
+
+.control-button { /* For BACK button */
+    background-color: var(--button-back-bg);
+    border-color: var(--button-back-border);
+    color: var(--button-back-text);
+    box-shadow: var(--glow-back);
+    flex-grow: 0; /* Don't grow */
+    padding: 6px 40px; /* Make Back button wider */
+}
+.control-button:hover {
+    background-color: #e02020;
+}
+
+
+#search-input {
+    flex-grow: 2; /* Take more space */
+    padding: 6px 6px;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 2px solid #aaa;
+    font-size: 1.4em;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex;
+    flex-grow: 1; /* Take remaining vertical space */
+    height: 672px; /* Fixed height from sketch */
+    background-color: var(--grid-bg);
+    padding: 20px;
+    overflow: hidden; /* Clip content */
+}
+
+.grid-container {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+    gap: 15px;
+    width: 1184px; /* Fixed width from sketch (total width - scrollbar - padding) */
+    height: 100%;
+    overflow: hidden; /* Prevent internal scroll */
+}
+/* ... (previous CSS rules for header, buttons, keyboard, etc.) ... */
+
+/* --- Grid Item Styling --- */
+.grid-item {
+    background-color: #222; /* Dark fallback background */
+    border: 2px solid var(--grid-item-border);
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden; /* Crucial for containing image and overlays */
+    position: relative; /* Needed for absolute positioning of overlays */
+    /* Remove padding if image fills the space */
+    padding: 0;
+    display: flex; /* Use flex primarily for fallback content centering */
+    justify-content: center;
+    align-items: center;
+    color: #ccc; /* Fallback text color */
+    font-size: 1em;
+}
+
+.grid-item.no-thumb {
+     background-color: #333; /* Slightly different fallback if no thumb */
+     /* You could add text here as a fallback if needed */
+}
+
+
+.grid-item:hover .grid-item-thumb {
+    /* Apply a subtle zoom effect on hover */
+    transform: scale(1.03);
+}
+.grid-item:active {
+    transform: scale(0.98); /* Keep the active shrink effect */
+}
+
+.grid-item-thumb {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Scale image nicely to cover the area */
+    object-position: center center;
+    transition: transform 0.2s ease-in-out; /* For hover effect if added */
+    position: absolute; /* Take out of flow if needed, but usually cover works well */
+    top: 0;
+    left: 0;
+    z-index: 1; /* Behind overlays */
+}
+
+.grid-item-overlay {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly darker overlay */
+    color: white;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    z-index: 2; /* Above thumbnail */
+    overflow: hidden; /* Clip any direct text overflow */
+    display: flex; /* Align text vertically if needed */
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+}
+
+.grid-item-overlay.top {
+    top: 0;
+    border-radius: 13px 13px 0 0; /* Match parent rounding */
+}
+
+.grid-item-overlay.bottom {
+    bottom: 0;
+    border-radius: 0 0 13px 13px; /* Match parent rounding */
+}
+
+/* Container for text within overlay, especially for scrolling */
+.grid-item-text-container {
+     width: 100%;
+     overflow: hidden; /* This container clips the scrolling text */
+     text-align: center; /* Ensure text is centered */
+     display: flex;
+     flex-direction: column;
+     align-items: center; /* Center children horizontally */
+}
+
+.grid-item-text {
+    display: block; /* Ensure it takes block space */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow initially */
+    text-overflow: ellipsis; /* Fallback if no scroll */
+    font-weight: bold;
+    font-size: 0.9em; /* Adjust text size as needed */
+    line-height: 1.3;
+    text-align: center !important; /* Center the text horizontally with !important */
+    width: 100%; /* Ensure full width */
+}
+.grid-item-text.top-text {
+     font-size: 0.95em;
+     text-align: center !important;
+}
+.grid-item-text.bottom-text {
+     font-size: 0.85em;
+     text-align: center !important;
+}
+
+
+/* --- Scrolling Text Animation --- */
+@keyframes scroll-text {
+    0% { transform: translateX(50%); } /* Start from the right side */
+    100% { transform: translateX(-150%); } /* Move to far left */
+}
+
+
+/* Apply animation when the overlay has the 'scrolling' class */
+.grid-item-overlay.scrolling .grid-item-text.bottom-text {
+    display: inline-block; /* Needed for transform to work */
+    /* Calculate animation duration based on text length? Complex. Use fixed duration */
+    animation: scroll-text 10s linear infinite; /* Adjust duration (10s) */
+    will-change: transform; /* Performance hint */
+    padding-left: 0; /* Remove left padding that was pushing text off center */
+    text-align: center !important;
+    width: 100%;
+}
+
+/* Refined looping animation */
+@keyframes scroll-loop {
+  0% { transform: translateX(100%); } /* Start off-screen right */
+  100% { transform: translateX(-100%); } /* End off-screen left */
+}
+
+.grid-item-overlay.scrolling .grid-item-text.bottom-text {
+    display: inline-block; /* Essential for transform */
+    /* padding-left: 100%; Ensures text starts off-screen for the loop */
+    animation: scroll-loop 8s linear infinite; /* Adjust time as needed */
+    will-change: transform;
+    /* No need for text-overflow: ellipsis when scrolling */
+    overflow: visible;
+    width: max-content; /* Let the span be as wide as its content */
+}
+
+
+/* ... (rest of CSS, including scrollbar, footer, utility classes) ... */
+
+/* Scrollbar */
+.scrollbar-container {
+    width: 96px; /* Fixed width from sketch */
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--scrollbar-bg);
+    border-radius: 15px;
+    padding: 10px 0;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+
+.scroll-button {
+    width: 80%;
+    height: 80px; /* Adjust size as needed */
+    background-color: var(--scrollbar-button-bg);
+    border: 3px solid var(--scrollbar-button-border);
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 10px; /* Space below top button */
+    margin-top: 10px; /* Space above bottom button */
+    box-shadow: var(--glow-scroll);
+    transition: background-color 0.2s;
+}
+.scroll-button:last-child {
+     margin-bottom: 0; /* No space below bottom button */
+     margin-top: 10px;
+}
+
+.scroll-button svg {
+    fill: white;
+    width: 50px;
+    height: 50px;
+}
+.scroll-button:hover {
+    background-color: #e02020;
+}
+.scroll-button:active {
+    transform: scale(0.96);
+}
+
+
+.scroll-track {
+    flex-grow: 1; /* Take remaining space */
+    width: 50%; /* Thinner than buttons */
+    background-color: #222; /* Darker track */
+    border-radius: 10px;
+    position: relative; /* For thumb positioning */
+    margin: 10px 0;
+}
+
+.scroll-thumb {
+    width: 100%;
+    height: 100px; /* Initial height, JS will adjust */
+    background-color: var(--scrollbar-thumb-bg);
+    border: 2px solid var(--scrollbar-thumb-border);
+    border-radius: 10px;
+    position: absolute;
+    top: 0; /* JS will adjust */
+    left: 0;
+    /* cursor: grab; */ /* Add if implementing drag */
+    box-shadow: var(--glow-scroll);
+}
+
+/* Footer Keyboard */
+.footer-keyboard {
+    height: 192px; /* Fixed height from sketch */
+    background-color: var(--keyboard-bg);
+    padding: 15px 20px;
+    flex-shrink: 0;
+    border-top: 2px solid #333;
+}
+
+.keyboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around; /* Space rows evenly */
+}
+.keyboard-row {
+    display: flex;
+    justify-content: center; /* Center keys within the row */
+    align-items: center;
+    gap: 8px; /* Space between keys */
+    width: 100%; /* Ensure row takes full width */
+}
+
+.key {
+    background-color: var(--keyboard-key-bg);
+    border: 2px solid var(--keyboard-key-border);
+    color: var(--keyboard-key-text);
+    border-radius: 10px;
+    padding: 10px 0; /* Vertical padding */
+    font-size: 1.6em;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    flex-grow: 1; /* Make keys expand to fill space */
+    flex-basis: 0; /* Important for even distribution with flex-grow */
+   /* max-width: 65px; */ /* Consider removing or adjusting max-width */
+    height: 65px; /* Make square-ish */
+    line-height: calc(65px - 20px - 4px); /* Approx vertical center: height - padding*2 - border*2 */
+    transition: background-color 0.1s, transform 0.1s;
+    min-width: 40px; /* Prevent keys becoming too small */
+}
+.key:hover {
+    background-color: #d0d0d0;
+}
+.key:active {
+    background-color: #b0b0b0;
+    transform: scale(0.95);
+}
+
+/* --- Status Overlay --- */
+.status-overlay {
+    position: fixed; /* Cover the whole screen */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Dark semi-transparent background */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+    color: #e0e0e0;
+    font-size: 1.5em;
+    text-align: center;
+    /* Initially hidden - JS will show it */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s ease-in-out;
+}
+
+.status-overlay.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.status-content {
+    padding: 30px;
+    background-color: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#status-message {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.progress-bar-container {
+    width: 400px; /* Adjust width as needed */
+    height: 25px;
+    background-color: #555;
+    border-radius: 12px;
+    margin: 0 auto 15px auto; /* Center horizontally */
+    overflow: hidden; /* Clip the inner bar */
+    border: 1px solid #777;
+}
+
+#progress-bar {
+    width: 0%; /* Start at 0% */
+    height: 100%;
+    background-color: #00a000; /* Green progress */
+    border-radius: 12px;
+    transition: width 0.2s linear; /* Smooth progress animation */
+}
+
+#status-detail {
+    font-size: 0.8em;
+    color: #bbb;
+    min-height: 1.2em; /* Prevent layout shifts */
+}
+
+
+/* ... (Keep ALL previous CSS rules for layout, buttons, grid, status overlay etc.) ... */
+
+/* --- Header Now Playing / Coming Up --- */
+#now-playing-container, #coming-up-container {
+    /* Adjust styling as needed */
+    line-height: 1.4;
+    overflow: hidden; /* Prevent text overflow */
+    white-space: nowrap;
+}
+#now-playing-container span, #coming-up-container span {
+    color: var(--header-text-playing); /* Red */
+    margin: 0 3px;
+}
+#now-playing-container .separator, #coming-up-container .separator {
+    color: red; /* Or default color */
+    margin: 0 5px;
+}
+#coming-up-container .upcoming-separator {
+    color: #aaa;
+    margin: 0 8px;
+}
+
+/* --- Coming Up Ticker Animation --- */
+#coming-up {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    position: relative;
+}
+
+#coming-up.empty {
+    display: none;
+}
+
+#coming-up .ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+@keyframes ticker-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+#coming-up.animated .ticker-content {
+    animation: ticker-scroll 30s linear infinite;
+}
+
+/* Prevent animation stacking/restarting incorrectly */
+#coming-up.animated[style*="animation: none"] .ticker-content {
+    animation: none !important;
+}
+
+
+/* --- Confirmation Popup --- */
+#confirmation-popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1100; /* Above status overlay */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s;
+}
+#confirmation-popup-container.visible {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.confirmation-popup {
+    background-color: #2a2a2a;
+    border: 2px solid #555;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    max-width: 450px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.confirmation-popup img {
+    display: block;
+    width: 200px; /* Fixed size for popup thumb */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 15px auto;
+    border: 1px solid #444;
+    background-color: #111; /* Fallback bg */
+}
+
+.confirmation-popup .artist-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.confirmation-popup .song-title {
+    font-size: 1.0em;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.confirmation-popup .message {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.confirmation-popup .buttons {
+    display: flex;
+    justify-content: space-around; /* Space out buttons */
+    align-items: center;
+}
+
+.confirmation-popup button.popup-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular buttons */
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 3em; /* Large icon */
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    transition: transform 0.1s ease-out, box-shadow 0.2s;
+}
+.confirmation-popup button.popup-button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+.confirmation-popup button.popup-button:active {
+    transform: scale(0.95);
+}
+
+.confirmation-popup button.cancel {
+    background-color: #c00000; /* Red */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+}
+
+.confirmation-popup button.confirm {
+    background-color: #008000; /* Green */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+/* Unicode symbols for tick/cross if needed, adjust font-size/padding */
+/* Example: button.cancel::before { content: '\2717'; } */
+/* Example: button.confirm::before { content: '\2713'; } */
+/* Utility */
+.hidden {
+    display: none !important; /* Force hide */
+}

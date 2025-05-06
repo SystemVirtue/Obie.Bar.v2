@@ -1,0 +1,58 @@
+/* Basic reset AND Ensure Full Height */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* CRITICAL: Ensure parents have height */
+    width: 100%;
+    overflow: hidden; /* Prevent scrollbars on the body */
+    background-color: #000; /* Black background */
+}
+
+/* Player container fills the entire viewport */
+#youtube-fullscreen-player {
+    position: fixed; /* Use fixed to ensure it stays relative to viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Use 100% of parent (body) */
+    height: 100%; /* Use 100% of parent (body) */
+    /* OR keep width: 100vw; height: 100vh; if preferred */
+    border: none;
+    z-index: 1; /* Base layer */
+}
+
+/* Iframe fills its container */
+#youtube-fullscreen-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Fade Overlay Styles */
+#fade-overlay {
+    position: fixed; /* Cover viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000; /* Black overlay */
+    opacity: 0; /* Start transparent */
+    visibility: hidden; /* Start hidden */
+    z-index: 2; /* Above the player iframe */
+    pointer-events: none; /* Allow clicks through when hidden */
+    /* Transition timing set by JS based on command */
+    transition-property: opacity, visibility;
+    transition-timing-function: ease-in-out;
+    /* Default duration (can be overridden by JS) */
+    transition-duration: 0.5s, 0s; /* Opacity fade, instant visibility change */
+    transition-delay: 0s, 0.5s; /* Delay hiding visibility until fade ends */
+}
+
+#fade-overlay.fading-out {
+    opacity: 1; /* Fade to opaque */
+    visibility: visible; /* Make visible */
+    transition-delay: 0s, 0s !important; /* Show immediately */
+    /* Transition duration set by JS */
+}
