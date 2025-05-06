@@ -1,0 +1,12 @@
+{
+  "name": "obie-bar-jukebox",
+  "version": "1.0.0",
+  "description": "Music Video Jukebox for Obie Bar",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
