@@ -1,0 +1,29 @@
+{
+  "name": "obie-bar-jukebox-desktop",
+  "version": "1.0.0",
+  "description": "Desktop version of the Obie Bar Video Jukebox",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.1.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.obiebar.jukebox",
+    "productName": "Obie Bar Jukebox",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "category": "public.app-category.music"
+    }
+  }
+}

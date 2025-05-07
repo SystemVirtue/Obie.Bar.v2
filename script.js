@@ -54,12 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let previousArtistScrollPosition = 0;
 
     let playerWindow = null;
-    let playlistQueue = [];
+    let userQueue = []; // User-specific queue
     let currentlyPlayingVideoId = null;
     let currentlyPlayingVideoArtist = null;
     let currentlyPlayingVideoTitle = null;
     let currentlyPlayingIsFromQueue = false;
     let isFreePlayMode = true;
+    let userId = null; // User-specific ID
+    let userSettings = null; // User-specific settings
 
     // --- Constants ---
     const JSON_URL = 'Videos_by_Artist.JSON';
@@ -71,6 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const COMMAND_STORAGE_KEY = 'jukeboxCommand';
     const STATUS_STORAGE_KEY = 'jukeboxStatus';
     const FADE_DURATION_MS = 3000;
+    const DEFAULT_SETTINGS = {
+        volume: 100,
+        queueLimit: 10,
+        autoplay: true,
+        maxQueueSize: 20
+    };
 
     // --- Get local thumbnail if available, otherwise use remote URL ---
     // Map to track which thumbnails have been checked

@@ -15,6 +15,9 @@ let apiReadyCheckTimeoutId = null; // Timeout ID for API readiness check
 let currentPlayerVideoId = null; // Track ID of video loaded in player
 let fadeIntervalId = null; // ID for audio fade timer
 let isFadingOut = false; // Local flag for fading state
+let userQueues = {}; // Store separate queues for each user
+let currentUserId = null; // Track current user
+let userSettings = {}; // Store user-specific settings
 
 // DOM Reference for Fade Overlay (cached on DOM Ready)
 let fadeOverlay = null;
