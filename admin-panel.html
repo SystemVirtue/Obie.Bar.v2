@@ -14,6 +14,7 @@
         <button class="tab-btn" data-tab="player">Video Player</button>
         <button class="tab-btn" data-tab="playlists">Playlists</button>
         <button class="tab-btn" data-tab="attract">Attract Mode</button>
+        <button class="tab-btn" data-tab="profile">Profile</button>
     </div>
 
     <!-- Tab Content -->
@@ -183,6 +184,77 @@
                             <option value="low">Low</option>
                         </select>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Player Tab -->
+    <div class="tab-content" id="player-tab">
+        <div class="settings-group">
+            <h2>Player Settings</h2>
+            
+            <!-- Display Selection -->
+            <div class="setting-item">
+                <label>Display</label>
+                <select id="player-display">
+                    <!-- Populated dynamically with available displays -->
+                </select>
+            </div>
+
+            <!-- Fullscreen Toggle -->
+            <div class="setting-item">
+                <label>Fullscreen</label>
+                <div class="toggle-container">
+                    <input type="checkbox" id="player-fullscreen">
+                    <label for="player-fullscreen">Enable Fullscreen</label>
+                </div>
+            </div>
+
+            <!-- Banner Settings -->
+            <div class="setting-item">
+                <label>Banner</label>
+                <div class="banner-controls">
+                    <div class="banner-toggle">
+                        <input type="checkbox" id="player-banner-enabled">
+                        <label for="player-banner-enabled">Enable Banner</label>
+                    </div>
+                    <div class="banner-text">
+                        <label>Banner Text</label>
+                        <input type="text" id="player-banner-text" placeholder="Custom banner text (optional)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Tab -->
+    <div class="tab-content" id="profile-tab">
+        <div class="settings-group">
+            <h2>Profile Settings</h2>
+            
+            <!-- Subdomain Settings -->
+            <div class="setting-item">
+                <label>User Subdomain</label>
+                <div class="subdomain-controls">
+                    <input type="text" id="profile-subdomain" placeholder="Enter subdomain (e.g., 'mikes')">
+                    <div class="subdomain-preview">
+                        Your URL will be: <span id="subdomain-preview">https://<span class="subdomain-value">mikes</span>.obie.juke</span>
+                    </div>
+                    <div class="subdomain-status" id="subdomain-status"></div>
+                </div>
+            </div>
+
+            <!-- Subdomain Validation -->
+            <div class="setting-item">
+                <div class="validation-rules">
+                    <h3>Subdomain Rules</h3>
+                    <ul>
+                        <li>Must be unique</li>
+                        <li>Only letters and numbers</li>
+                        <li>3-15 characters long</li>
+                        <li>No special characters</li>
+                    </ul>
                 </div>
             </div>
         </div>

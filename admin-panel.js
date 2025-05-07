@@ -34,6 +34,12 @@ function initializeSettings() {
 
     // Initialize attract mode
     initializeAttractMode();
+
+    // Initialize player settings
+    initializePlayerSettings();
+
+    // Initialize profile settings
+    initializeProfileSettings();
 }
 
 // Setup event listeners
@@ -75,8 +81,24 @@ function setupEventListeners() {
     // Attract mode
     document.getElementById('idle-enabled').addEventListener('change', handleIdleEnabledChange);
     document.getElementById('idle-interval').addEventListener('input', handleIdleIntervalChange);
-    document.getElementById('slideshow-enabled').addEventListener('change', handleSlideshowEnabledChange);
-    document.getElementById('slideshow-media').addEventListener('change', handleSlideshowMediaChange);
+    document.getElementById('idle-source').addEventListener('change', handleSourceChange);
+
+    // Promo settings
+    document.getElementById('promo-transition').addEventListener('change', handlePromoTransitionChange);
+    document.getElementById('promo-media').addEventListener('change', handlePromoMediaChange);
+
+    // Artists settings
+    document.getElementById('artists-style').addEventListener('change', handleArtistsStyleChange);
+    document.getElementById('artists-transition').addEventListener('change', handleArtistsTransitionChange);
+
+    // Player settings
+    document.getElementById('player-display').addEventListener('change', handlePlayerDisplayChange);
+    document.getElementById('player-fullscreen').addEventListener('change', handlePlayerFullscreenChange);
+    document.getElementById('player-banner-enabled').addEventListener('change', handlePlayerBannerChange);
+    document.getElementById('player-banner-text').addEventListener('input', handlePlayerBannerTextChange);
+
+    // Profile settings
+    document.getElementById('profile-subdomain').addEventListener('input', handleSubdomainChange);
 
     // Save/Reset buttons
     document.getElementById('save-settings').addEventListener('click', saveAllSettings);
@@ -148,6 +170,35 @@ function handlePlaylistAction(e) {
             initializePlaylists();
         }
     }
+}
+
+// Handle player settings
+function handlePlayerDisplayChange(e) {
+    settings.player = settings.player || {};
+    settings.player.display = e.target.value;
+}
+
+function handlePlayerFullscreenChange(e) {
+    settings.player = settings.player || {};
+    settings.player.fullscreen = e.target.checked;
+}
+
+function handlePlayerBannerChange(e) {
+    settings.player = settings.player || {};
+    settings.player.banner = settings.player.banner || {};
+    settings.player.banner.enabled = e.target.checked;
+}
+
+function handlePlayerBannerTextChange(e) {
+    settings.player = settings.player || {};
+    settings.player.banner = settings.player.banner || {};
+    settings.player.banner.text = e.target.value;
+}
+
+// Handle profile settings
+function handleSubdomainChange(e) {
+    settings.profile = settings.profile || {};
+    settings.profile.subdomain = e.target.value;
 }
 
 // Handle idle settings
@@ -315,6 +366,125 @@ async function initializeSerialDevices() {
         }
     } catch (error) {
         console.error('Error initializing serial devices:', error);
+    }
+}
+
+// Initialize player settings
+async function initializePlayerSettings() {
+    const playerDisplay = document.getElementById('player-display');
+    const playerFullscreen = document.getElementById('player-fullscreen');
+    const playerBannerEnabled = document.getElementById('player-banner-enabled');
+    const playerBannerText = document.getElementById('player-banner-text');
+    
+    // Initialize display selection
+    try {
+        const displays = await getAvailableDisplays();
+        displays.forEach(display => {
+            const option = document.createElement('option');
+            option.value = display.id;
+            option.textContent = display.name;
+            playerDisplay.appendChild(option);
+        });
+        
+        if (settings.player?.display) {
+            playerDisplay.value = settings.player.display;
+        }
+    } catch (error) {
+        console.error('Error getting displays:', error);
+    }
+    
+    // Set initial values
+    playerFullscreen.checked = settings.player?.fullscreen || false;
+    playerBannerEnabled.checked = settings.player?.banner?.enabled || false;
+    playerBannerText.value = settings.player?.banner?.text || '';
+}
+
+// Get available displays
+async function getAvailableDisplays() {
+    try {
+        // For Electron app
+        const { screen } = require('electron').remote;
+        const displays = screen.getAllDisplays();
+        return displays.map(display => ({
+            id: display.id,
+            name: display.name || `Display ${display.id}`
+        }));
+    } catch (error) {
+        // For web app
+        return [{
+            id: 'default',
+            name: 'Default Display'
+        }];
+    }
+}
+
+// Initialize profile settings
+function initializeProfileSettings() {
+    const subdomainInput = document.getElementById('profile-subdomain');
+    const subdomainPreview = document.getElementById('subdomain-preview');
+    const subdomainStatus = document.getElementById('subdomain-status');
+    
+    // Set initial values
+    subdomainInput.value = settings.profile?.subdomain || '';
+    updateSubdomainPreview();
+    
+    // Update preview on input
+    subdomainInput.addEventListener('input', () => {
+        updateSubdomainPreview();
+        validateSubdomain();
+    });
+}
+
+// Update subdomain preview
+function updateSubdomainPreview() {
+    const subdomainInput = document.getElementById('profile-subdomain');
+    const subdomainValue = document.querySelector('.subdomain-value');
+    subdomainValue.textContent = subdomainInput.value || 'mikes';
+}
+
+// Validate subdomain
+function validateSubdomain() {
+    const subdomainInput = document.getElementById('profile-subdomain');
+    const subdomainStatus = document.getElementById('subdomain-status');
+    const value = subdomainInput.value;
+    
+    if (!value) {
+        subdomainStatus.textContent = '';
+        return;
+    }
+    
+    // Basic validation
+    const isValid = /^[a-zA-Z0-9]{3,15}$/.test(value);
+    
+    if (!isValid) {
+        subdomainStatus.textContent = 'Invalid subdomain format';
+        subdomainStatus.style.color = '#f44336';
+        return;
+    }
+    
+    // Check uniqueness
+    checkSubdomainUniqueness(value);
+}
+
+// Check subdomain uniqueness
+async function checkSubdomainUniqueness(subdomain) {
+    try {
+        const response = await fetch(`/api/check-subdomain?subdomain=${subdomain}`);
+        const data = await response.json();
+        
+        const subdomainStatus = document.getElementById('subdomain-status');
+        if (data.available) {
+            subdomainStatus.textContent = 'Available!';
+            subdomainStatus.style.color = '#4CAF50';
+        } else {
+            subdomainStatus.textContent = 'Already taken';
+            subdomainStatus.style.color = '#f44336';
+        }
+    } catch (error) {
+        console.error('Error checking subdomain:', error);
+        const subdomainStatus = document.getElementById('subdomain-status');
+        subdomainStatus.textContent = 'Error checking availability';
+        subdomainStatus.style.color = '#f44336';
     }
 }
 
