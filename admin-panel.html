@@ -12,6 +12,8 @@
         <button class="tab-btn" data-tab="bgm">BGM Playlist</button>
         <button class="tab-btn" data-tab="main-ui">Main UI Options</button>
         <button class="tab-btn" data-tab="player">Video Player</button>
+        <button class="tab-btn" data-tab="playlists">Playlists</button>
+        <button class="tab-btn" data-tab="attract">Attract Mode</button>
     </div>
 
     <!-- Tab Content -->
@@ -47,8 +49,76 @@
             </div>
 
             <div class="setting-item">
-                <label>Coin Serial Key</label>
-                <input type="text" id="credits-coins-key" value="b">
+                <label>Coin Serial Key 1</label>
+                <input type="text" id="credits-coins-key-1" value="b">
+            </div>
+
+            <div class="setting-item">
+                <label>Coin Serial Key 2</label>
+                <input type="text" id="credits-coins-key-2" value="a">
+            </div>
+
+            <div class="setting-item">
+                <label>Coin Credit Value 2</label>
+                <input type="number" id="credits-coins-credit-2" min="0" value="1">
+            </div>
+        </div>
+    </div>
+
+    <!-- Playlists Tab -->
+    <div class="tab-content" id="playlists-tab">
+        <div class="settings-group">
+            <h2>Playlists Management</h2>
+            
+            <!-- Playlist Viewer -->
+            <div class="playlist-viewer">
+                <h3>Playlists</h3>
+                <div id="playlist-list">
+                    <!-- Playlists will be populated dynamically -->
+                </div>
+            </div>
+
+            <!-- Add Playlist Section -->
+            <div class="setting-item">
+                <h3>Add New Playlist</h3>
+                <div class="playlist-add-form">
+                    <input type="text" id="playlist-id" placeholder="YouTube Playlist ID">
+                    <button id="validate-playlist">Validate</button>
+                    <button id="add-playlist">Add Playlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Attract Mode Tab -->
+    <div class="tab-content" id="attract-tab">
+        <div class="settings-group">
+            <h2>Attract Mode Settings</h2>
+            
+            <!-- Idle Interval -->
+            <div class="setting-item">
+                <label>Idle Interval</label>
+                <div class="idle-interval-controls">
+                    <input type="checkbox" id="idle-enabled">
+                    <div class="slider-container">
+                        <input type="range" id="idle-interval" min="30" max="600" step="30" value="30">
+                        <span id="idle-value">30</span> seconds
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slideshow Settings -->
+            <div class="setting-item">
+                <label>Slideshow</label>
+                <div class="slideshow-controls">
+                    <input type="checkbox" id="slideshow-enabled">
+                    <div class="slideshow-options">
+                        <input type="file" id="slideshow-media" accept="image/*,video/*">
+                        <div id="current-media" class="media-preview">
+                            <!-- Media preview will be shown here -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
