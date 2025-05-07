@@ -1,0 +1,254 @@
+<!-- Admin Panel Main Container -->
+<div id="admin-panel" class="admin-container">
+    <!-- Header -->
+    <div class="admin-header">
+        <h1>ADMIN PANEL - SETTINGS & OPTIONS</h1>
+        <button id="admin-close">Close</button>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="admin-tabs">
+        <button class="tab-btn active" data-tab="credits">Credits</button>
+        <button class="tab-btn" data-tab="bgm">BGM Playlist</button>
+        <button class="tab-btn" data-tab="main-ui">Main UI Options</button>
+        <button class="tab-btn" data-tab="player">Video Player</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="tab-content active" id="credits-tab">
+        <!-- Credits Settings -->
+        <div class="settings-group">
+            <h2>Credit Settings</h2>
+            
+            <div class="setting-item">
+                <label>Credit Value</label>
+                <div class="value-controls">
+                    <button class="btn minus" data-action="subtract">-</button>
+                    <span id="credits-value">0</span>
+                    <button class="btn plus" data-action="add">+</button>
+                </div>
+            </div>
+
+            <div class="setting-item">
+                <label>Credit Mode</label>
+                <select id="credits-mode">
+                    <option value="FREE-PLAY">FREE-PLAY</option>
+                    <option value="COIN-PLAY">COIN-PLAY</option>
+                    <option value="AUTO-CREDIT">AUTO-CREDIT</option>
+                </select>
+            </div>
+
+            <div class="setting-item">
+                <label>Credit Serial Device</label>
+                <select id="credits-serial">
+                    <option value="">Select Serial Device</option>
+                    <!-- Populated dynamically -->
+                </select>
+            </div>
+
+            <div class="setting-item">
+                <label>Coin Serial Key</label>
+                <input type="text" id="credits-coins-key" value="b">
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="bgm-tab">
+        <!-- BGM Playlist Settings -->
+        <div class="settings-group">
+            <h2>BGM Playlist Settings</h2>
+            <!-- Add BGM settings here -->
+        </div>
+    </div>
+
+    <div class="tab-content" id="main-ui-tab">
+        <!-- Main UI Settings -->
+        <div class="settings-group">
+            <h2>Main UI Settings</h2>
+            <!-- Add UI settings here -->
+        </div>
+    </div>
+
+    <div class="tab-content" id="player-tab">
+        <!-- Video Player Settings -->
+        <div class="settings-group">
+            <h2>Video Player Settings</h2>
+            <!-- Add player settings here -->
+        </div>
+    </div>
+
+    <!-- Save/Reset Buttons -->
+    <div class="admin-actions">
+        <button id="save-settings">Save All Settings</button>
+        <button id="reset-settings">Reset to Defaults</button>
+    </div>
+</div>
+
+<style>
+.admin-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.admin-close {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-close:hover {
+    background: #555;
+}
+
+.admin-tabs {
+    display: flex;
+    border-bottom: 2px solid #4CAF50;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: #666;
+    color: white;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.tab-btn.active {
+    background: #4CAF50;
+}
+
+.tab-content {
+    flex: 1;
+    padding: 20px;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.settings-group {
+    margin-bottom: 30px;
+}
+
+.settings-group h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.setting-item {
+    margin-bottom: 20px;
+}
+
+.setting-item label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.value-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background: #666;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+select, input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.admin-actions {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 2px solid #4CAF50;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#save-settings {
+    background: #4CAF50;
+    color: white;
+}
+
+#save-settings:hover {
+    background: #45a049;
+}
+
+#reset-settings {
+    background: #666;
+    color: white;
+}
+
+#reset-settings:hover {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    .admin-tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab-btn {
+        flex: 1;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+</style>

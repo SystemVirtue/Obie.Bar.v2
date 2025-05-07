@@ -637,6 +637,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handleItemClick(event) {
+        const videoData = event.target.dataset.videoData;
+        if (videoData) {
+            showQueueConfirmation(JSON.parse(videoData));
+        }
+        
+        // Check for admin trigger
+        const searchTerm = searchInput.value.trim().toUpperCase();
+        if (searchTerm === 'ADMIN') {
+            showAdminPanel();
+            searchInput.value = '';
+        }
+
         const target = event.currentTarget;
         const id = target.dataset.id;
         const type = target.dataset.type;
