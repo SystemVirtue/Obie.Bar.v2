@@ -161,35 +161,91 @@ function handleIdleIntervalChange(e) {
     settings.attract.idleInterval = parseInt(e.target.value);
 }
 
-// Handle slideshow settings
-function handleSlideshowEnabledChange(e) {
+// Handle source selection
+function handleSourceChange(e) {
     settings.attract = settings.attract || {};
-    settings.attract.slideshowEnabled = e.target.checked;
+    settings.attract.source = e.target.value;
+    updateSourceSettings();
 }
 
-function handleSlideshowMediaChange(e) {
-    const file = e.target.files[0];
-    if (file) {
-        settings.attract = settings.attract || {};
-        settings.attract.slideshowMedia = file.name;
-        
-        // Preview the media
-        const preview = document.getElementById('current-media');
-        preview.innerHTML = '';
-        
-        if (file.type.startsWith('image/')) {
-            const img = new Image();
-            img.src = URL.createObjectURL(file);
-            img.style.maxWidth = '100%';
-            preview.appendChild(img);
-        } else if (file.type.startsWith('video/')) {
-            const video = document.createElement('video');
-            video.src = URL.createObjectURL(file);
-            video.controls = true;
-            video.style.maxWidth = '100%';
-            preview.appendChild(video);
-        }
+// Handle promo settings
+function handlePromoTransitionChange(e) {
+    settings.attract = settings.attract || {};
+    settings.attract.promo = settings.attract.promo || {};
+    settings.attract.promo.transition = e.target.value;
+}
+
+function handlePromoMediaChange(e) {
+    const files = Array.from(e.target.files);
+    settings.attract = settings.attract || {};
+    settings.attract.promo = settings.attract.promo || {};
+    
+    // Add new files to existing ones
+    settings.attract.promo.media = [...(settings.attract.promo.media || []), ...files.map(file => file.name)];
+    
+    // Update preview
+    const preview = document.getElementById('promo-media-preview');
+    preview.innerHTML = '';
+    
+    files.forEach(file => {
+        addMediaPreview(file);
+    });
+}
+
+function addMediaPreview(file) {
+    const preview = document.getElementById('promo-media-preview');
+    const previewItem = document.createElement('div');
+    previewItem.className = 'media-item';
+    
+    if (file.type.startsWith('image/')) {
+        const img = new Image();
+        img.src = URL.createObjectURL(file);
+        img.style.maxWidth = '100px';
+        previewItem.appendChild(img);
+    } else if (file.type.startsWith('video/')) {
+        const video = document.createElement('video');
+        video.src = URL.createObjectURL(file);
+        video.controls = true;
+        video.style.maxWidth = '100px';
+        previewItem.appendChild(video);
     }
+    
+    const removeButton = document.createElement('button');
+    removeButton.textContent = '×';
+    removeButton.className = 'remove-media';
+    removeButton.addEventListener('click', () => {
+        previewItem.remove();
+        settings.attract.promo.media = settings.attract.promo.media.filter(m => m !== file.name);
+    });
+    previewItem.appendChild(removeButton);
+    
+    preview.appendChild(previewItem);
+}
+
+// Handle artists settings
+function handleArtistsStyleChange(e) {
+    settings.attract = settings.attract || {};
+    settings.attract.artists = settings.attract.artists || {};
+    settings.attract.artists.style = e.target.value;
+}
+
+function handleArtistsTransitionChange(e) {
+    settings.attract = settings.attract || {};
+    settings.attract.artists = settings.attract.artists || {};
+    settings.attract.artists.transition = e.target.value;
+}
+
+// Handle player settings
+function handlePlayerControlsChange(e) {
+    settings.attract = settings.attract || {};
+    settings.attract.player = settings.attract.player || {};
+    settings.attract.player.controls = e.target.value;
+}
+
+function handlePlayerQualityChange(e) {
+    settings.attract = settings.attract || {};
+    settings.attract.player = settings.attract.player || {};
+    settings.attract.player.quality = e.target.value;
 }
 
 // Handle tab switching
@@ -289,18 +345,74 @@ function initializeAttractMode() {
     const idleEnabled = document.getElementById('idle-enabled');
     const idleInterval = document.getElementById('idle-interval');
     const idleValue = document.getElementById('idle-value');
-    const slideshowEnabled = document.getElementById('slideshow-enabled');
+    const idleSource = document.getElementById('idle-source');
     
     // Set initial values
     idleEnabled.checked = settings.attract?.idleEnabled || false;
     idleInterval.value = settings.attract?.idleInterval || 30;
     idleValue.textContent = idleInterval.value;
-    slideshowEnabled.checked = settings.attract?.slideshowEnabled || false;
+    idleSource.value = settings.attract?.source || 'PROMO';
     
     // Update idle value display
     idleInterval.addEventListener('input', (e) => {
         idleValue.textContent = e.target.value;
     });
+    
+    // Update source settings visibility
+    updateSourceSettings();
+    
+    // Initialize source-specific settings
+    initializePromoSettings();
+    initializeArtistsSettings();
+    initializePlayerSettings();
+}
+
+// Update source settings visibility
+function updateSourceSettings() {
+    const source = document.getElementById('idle-source').value;
+    const promoSettings = document.querySelector('.promo-settings');
+    const artistsSettings = document.querySelector('.artists-settings');
+    const playerSettings = document.querySelector('.player-settings');
+    
+    promoSettings.style.display = source === 'PROMO' ? 'block' : 'none';
+    artistsSettings.style.display = source === 'ARTISTS' ? 'block' : 'none';
+    playerSettings.style.display = source === 'PLAYER' ? 'block' : 'none';
+}
+
+// Initialize promo settings
+function initializePromoSettings() {
+    const promoTransition = document.getElementById('promo-transition');
+    const promoMedia = document.getElementById('promo-media');
+    const promoPreview = document.getElementById('promo-media-preview');
+    
+    // Set initial values
+    promoTransition.value = settings.attract?.promo?.transition || 'fade';
+    
+    // Initialize media preview
+    const mediaFiles = settings.attract?.promo?.media || [];
+    mediaFiles.forEach(file => {
+        addMediaPreview(file);
+    });
+}
+
+// Initialize artists settings
+function initializeArtistsSettings() {
+    const artistsStyle = document.getElementById('artists-style');
+    const artistsTransition = document.getElementById('artists-transition');
+    
+    // Set initial values
+    artistsStyle.value = settings.attract?.artists?.style || 'classic';
+    artistsTransition.value = settings.attract?.artists?.transition || 'fade';
+}
+
+// Initialize player settings
+function initializePlayerSettings() {
+    const playerControls = document.getElementById('player-controls');
+    const playerQuality = document.getElementById('player-quality');
+    
+    // Set initial values
+    playerControls.value = settings.attract?.player?.controls || 'show';
+    playerQuality.value = settings.attract?.player?.quality || 'auto';
 }
 
 // Save all settings

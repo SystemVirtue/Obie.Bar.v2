@@ -107,16 +107,81 @@
                 </div>
             </div>
 
-            <!-- Slideshow Settings -->
+            <!-- Source Selection -->
             <div class="setting-item">
-                <label>Slideshow</label>
-                <div class="slideshow-controls">
-                    <input type="checkbox" id="slideshow-enabled">
-                    <div class="slideshow-options">
-                        <input type="file" id="slideshow-media" accept="image/*,video/*">
-                        <div id="current-media" class="media-preview">
+                <label>Idle Source</label>
+                <div class="source-selection">
+                    <select id="idle-source">
+                        <option value="PROMO">PROMO (Local Media)</option>
+                        <option value="ARTISTS">ARTISTS (Random Thumbnails)</option>
+                        <option value="PLAYER">PLAYER (Current Player)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- PROMO Media Settings -->
+            <div class="setting-item promo-settings" style="display: none;">
+                <label>PROMO Media</label>
+                <div class="promo-media-controls">
+                    <div class="media-upload">
+                        <input type="file" id="promo-media" accept="image/*,video/*" multiple>
+                        <div id="promo-media-preview" class="media-preview">
                             <!-- Media preview will be shown here -->
                         </div>
+                    </div>
+                    <div class="media-options">
+                        <label>Transition Style</label>
+                        <select id="promo-transition">
+                            <option value="fade">Fade</option>
+                            <option value="slide">Slide</option>
+                            <option value="zoom">Zoom</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ARTISTS Settings -->
+            <div class="setting-item artists-settings" style="display: none;">
+                <label>ARTISTS Display</label>
+                <div class="artists-options">
+                    <div class="style-selection">
+                        <label>Style</label>
+                        <select id="artists-style">
+                            <option value="classic">Classic</option>
+                            <option value="modern">Modern</option>
+                            <option value="retro">Retro</option>
+                        </select>
+                    </div>
+                    <div class="transition-selection">
+                        <label>Transition</label>
+                        <select id="artists-transition">
+                            <option value="fade">Fade</option>
+                            <option value="slide">Slide</option>
+                            <option value="random">Random</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PLAYER Settings -->
+            <div class="setting-item player-settings" style="display: none;">
+                <label>PLAYER Display</label>
+                <div class="player-options">
+                    <div class="player-controls">
+                        <label>Controls</label>
+                        <select id="player-controls">
+                            <option value="show">Show</option>
+                            <option value="hide">Hide</option>
+                        </select>
+                    </div>
+                    <div class="player-quality">
+                        <label>Quality</label>
+                        <select id="player-quality">
+                            <option value="auto">Auto</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
                     </div>
                 </div>
             </div>
