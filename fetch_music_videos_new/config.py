@@ -1,0 +1,7 @@
+# YouTube API Configuration
+YOUTUBE_API_KEY = "YOUR_YOUTUBE_API_KEY_HERE"
+
+# Rate Limiting Delays (Seconds)
+MUSICBRAINZ_DELAY = 2
+AUDIO_DB_DELAY = 1
+YOUTUBE_DELAY = 1

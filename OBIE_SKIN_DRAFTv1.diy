@@ -1,0 +1,5397 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+  <fileVersion>
+    <major>4</major>
+    <minor>37</minor>
+    <build>0</build>
+  </fileVersion>
+  <title>80</title>
+  <author>mikeclarkin</author>
+  <width value="5000.0" unit="px"/>
+  <height value="1500.0" unit="px"/>
+  <gridSpacing value="80.0" unit="px"/>
+  <dotSpacing>1</dotSpacing>
+  <components>
+    <diylc.shapes.Rectangle>
+      <name>MAIN FRAME - LOCKED</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.145" y="-6.12"/>
+        <point x="0.23" y="-1.02"/>
+      </controlPoints>
+      <firstPoint x="-6.145" y="-6.12"/>
+      <secondPoint x="0.23" y="-1.02"/>
+      <color hex="000000"/>
+      <borderColor hex="ff3300"/>
+      <borderThickness value="1.0" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT156</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-0.025" y="-0.04"/>
+        <point x="6.35" y="5.06"/>
+      </controlPoints>
+      <firstPoint x="-0.025" y="-0.04"/>
+      <secondPoint x="6.35" y="5.06"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="1.0" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT5</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.0" y="0.0"/>
+        <point x="6.2" y="0.35"/>
+      </controlPoints>
+      <firstPoint x="0.0" y="0.0"/>
+      <secondPoint x="6.2" y="0.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.misc.Label>
+      <name>LAB5</name>
+      <point x="4.05" y="0.15"/>
+      <text>Now Playing : [Artist] ~ [SongTitle]</text>
+      <font name="GeezaPro-Bold" size="28" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB2</name>
+      <point x="11.0" y="4.465"/>
+      <text>This Is The Song Title Down Here</text>
+      <font name="GeezaPro" size="10" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.shapes.Rectangle>
+      <name>RECT2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="10.6" y="3.975"/>
+        <point x="11.4" y="4.425"/>
+      </controlPoints>
+      <firstPoint x="10.6" y="3.975"/>
+      <secondPoint x="11.4" y="4.425"/>
+      <color hex="333333"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT1</name>
+      <alpha>0</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="10.6" y="3.9"/>
+        <point x="11.4" y="4.5"/>
+      </controlPoints>
+      <firstPoint x="10.6" y="3.9"/>
+      <secondPoint x="11.4" y="4.5"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT6</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="4.8"/>
+        <point x="6.3" y="5.0"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="4.8"/>
+      <secondPoint x="6.3" y="5.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT7</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.0" y="0.35"/>
+        <point x="6.2" y="1.0"/>
+      </controlPoints>
+      <firstPoint x="0.0" y="0.35"/>
+      <secondPoint x="6.2" y="1.0"/>
+      <color hex="000000"/>
+      <borderColor hex="333333"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT15</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.72" y="1.95"/>
+        <point x="1.92" y="2.85"/>
+      </controlPoints>
+      <firstPoint x="0.72" y="1.95"/>
+      <secondPoint x="1.92" y="2.85"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT16</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.97" y="1.95"/>
+        <point x="3.17" y="2.85"/>
+      </controlPoints>
+      <firstPoint x="1.97" y="1.95"/>
+      <secondPoint x="3.17" y="2.85"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT18</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.22" y="1.95"/>
+        <point x="4.42" y="2.85"/>
+      </controlPoints>
+      <firstPoint x="3.22" y="1.95"/>
+      <secondPoint x="4.42" y="2.85"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT19</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.47" y="1.95"/>
+        <point x="5.67" y="2.85"/>
+      </controlPoints>
+      <firstPoint x="4.47" y="1.95"/>
+      <secondPoint x="5.67" y="2.85"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT20</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.72" y="2.1"/>
+        <point x="1.92" y="2.75"/>
+      </controlPoints>
+      <firstPoint x="0.72" y="2.1"/>
+      <secondPoint x="1.92" y="2.75"/>
+      <color hex="003333"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT21</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="1.0"/>
+        <point x="1.3" y="1.9"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="1.0"/>
+      <secondPoint x="1.3" y="1.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT22</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.35" y="1.0"/>
+        <point x="2.55" y="1.9"/>
+      </controlPoints>
+      <firstPoint x="1.35" y="1.0"/>
+      <secondPoint x="2.55" y="1.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT23</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.6" y="1.0"/>
+        <point x="3.8" y="1.9"/>
+      </controlPoints>
+      <firstPoint x="2.6" y="1.0"/>
+      <secondPoint x="3.8" y="1.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT24</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.85" y="1.0"/>
+        <point x="5.05" y="1.9"/>
+      </controlPoints>
+      <firstPoint x="3.85" y="1.0"/>
+      <secondPoint x="5.05" y="1.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT25</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.1" y="1.0"/>
+        <point x="6.3" y="1.9"/>
+      </controlPoints>
+      <firstPoint x="5.1" y="1.0"/>
+      <secondPoint x="6.3" y="1.9"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT26</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="1.15"/>
+        <point x="1.3" y="1.8"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="1.15"/>
+      <secondPoint x="1.3" y="1.8"/>
+      <color hex="003333"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT27</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="2.9"/>
+        <point x="1.3" y="3.8"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="2.9"/>
+      <secondPoint x="1.3" y="3.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT28</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.35" y="2.9"/>
+        <point x="2.55" y="3.8"/>
+      </controlPoints>
+      <firstPoint x="1.35" y="2.9"/>
+      <secondPoint x="2.55" y="3.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT29</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.6" y="2.9"/>
+        <point x="3.8" y="3.8"/>
+      </controlPoints>
+      <firstPoint x="2.6" y="2.9"/>
+      <secondPoint x="3.8" y="3.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT30</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.85" y="2.9"/>
+        <point x="5.05" y="3.8"/>
+      </controlPoints>
+      <firstPoint x="3.85" y="2.9"/>
+      <secondPoint x="5.05" y="3.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT31</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.1" y="2.9"/>
+        <point x="6.3" y="3.8"/>
+      </controlPoints>
+      <firstPoint x="5.1" y="2.9"/>
+      <secondPoint x="6.3" y="3.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT32</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="3.05"/>
+        <point x="1.3" y="3.7"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="3.05"/>
+      <secondPoint x="1.3" y="3.7"/>
+      <color hex="003333"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT33</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="3.85"/>
+        <point x="1.3" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="3.85"/>
+      <secondPoint x="1.3" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT34</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.35" y="3.85"/>
+        <point x="2.55" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="1.35" y="3.85"/>
+      <secondPoint x="2.55" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT35</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.6" y="3.85"/>
+        <point x="3.8" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="2.6" y="3.85"/>
+      <secondPoint x="3.8" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT36</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.85" y="3.85"/>
+        <point x="5.05" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="3.85" y="3.85"/>
+      <secondPoint x="5.05" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT37</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.1" y="3.85"/>
+        <point x="6.3" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="5.1" y="3.85"/>
+      <secondPoint x="6.3" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="1.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT38</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="4.0"/>
+        <point x="1.3" y="4.65"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="4.0"/>
+      <secondPoint x="1.3" y="4.65"/>
+      <color hex="003333"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT3</name>
+      <alpha>5</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-0.05" y="1.0"/>
+        <point x="6.35" y="4.85"/>
+      </controlPoints>
+      <firstPoint x="-0.05" y="1.0"/>
+      <secondPoint x="6.35" y="4.85"/>
+      <color hex="cc0033"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT40</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.6" y="5.2"/>
+        <point x="3.8" y="5.45"/>
+      </controlPoints>
+      <firstPoint x="2.6" y="5.2"/>
+      <secondPoint x="3.8" y="5.45"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="7.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT46</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.9" y="5.2"/>
+        <point x="5.1" y="5.45"/>
+      </controlPoints>
+      <firstPoint x="3.9" y="5.2"/>
+      <secondPoint x="5.1" y="5.45"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="7.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT47</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.25" y="5.2"/>
+        <point x="6.45" y="5.45"/>
+      </controlPoints>
+      <firstPoint x="5.25" y="5.2"/>
+      <secondPoint x="6.45" y="5.45"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="7.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT48</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.3" y="5.2"/>
+        <point x="2.5" y="5.45"/>
+      </controlPoints>
+      <firstPoint x="1.3" y="5.2"/>
+      <secondPoint x="2.5" y="5.45"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="7.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT49</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.0" y="5.2"/>
+        <point x="1.2" y="5.45"/>
+      </controlPoints>
+      <firstPoint x="0.0" y="5.2"/>
+      <secondPoint x="1.2" y="5.45"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="7.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT50</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.0" y="5.5"/>
+        <point x="1.2" y="5.75"/>
+      </controlPoints>
+      <firstPoint x="0.0" y="5.5"/>
+      <secondPoint x="1.2" y="5.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="7.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT64</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="1.195"/>
+        <point x="-0.91" y="1.495"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="1.195"/>
+      <secondPoint x="-0.91" y="1.495"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT66</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="1.595"/>
+        <point x="-0.91" y="1.895"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="1.595"/>
+      <secondPoint x="-0.91" y="1.895"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT67</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="1.995"/>
+        <point x="-0.91" y="2.295"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="1.995"/>
+      <secondPoint x="-0.91" y="2.295"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT68</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="2.395"/>
+        <point x="-0.91" y="2.695"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="2.395"/>
+      <secondPoint x="-0.91" y="2.695"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT69</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="2.795"/>
+        <point x="-0.91" y="3.095"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="2.795"/>
+      <secondPoint x="-0.91" y="3.095"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT70</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="3.195"/>
+        <point x="-0.91" y="3.495"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="3.195"/>
+      <secondPoint x="-0.91" y="3.495"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT71</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="3.595"/>
+        <point x="-0.91" y="3.895"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="3.595"/>
+      <secondPoint x="-0.91" y="3.895"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT72</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="3.995"/>
+        <point x="-0.91" y="4.295"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="3.995"/>
+      <secondPoint x="-0.91" y="4.295"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT73</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.095" y="4.395"/>
+        <point x="-0.91" y="4.695"/>
+      </controlPoints>
+      <firstPoint x="-2.095" y="4.395"/>
+      <secondPoint x="-0.91" y="4.695"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT74</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="1.15"/>
+        <point x="-0.11" y="1.45"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="1.15"/>
+      <secondPoint x="-0.11" y="1.45"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT75</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="1.55"/>
+        <point x="-0.11" y="1.85"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="1.55"/>
+      <secondPoint x="-0.11" y="1.85"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT76</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="1.95"/>
+        <point x="-0.11" y="2.25"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="1.95"/>
+      <secondPoint x="-0.11" y="2.25"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT77</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="2.35"/>
+        <point x="-0.11" y="2.65"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="2.35"/>
+      <secondPoint x="-0.11" y="2.65"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT78</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="2.75"/>
+        <point x="-0.11" y="3.05"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="2.75"/>
+      <secondPoint x="-0.11" y="3.05"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT79</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="3.15"/>
+        <point x="-0.11" y="3.45"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="3.15"/>
+      <secondPoint x="-0.11" y="3.45"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT80</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="3.55"/>
+        <point x="-0.11" y="3.85"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="3.55"/>
+      <secondPoint x="-0.11" y="3.85"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT81</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="3.95"/>
+        <point x="-0.11" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="3.95"/>
+      <secondPoint x="-0.11" y="4.25"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT82</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.295" y="4.35"/>
+        <point x="-0.11" y="4.65"/>
+      </controlPoints>
+      <firstPoint x="-1.295" y="4.35"/>
+      <secondPoint x="-0.11" y="4.65"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT8</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="1.0"/>
+        <point x="8.94" y="1.3"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="1.0"/>
+      <secondPoint x="8.94" y="1.3"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT9</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="1.4"/>
+        <point x="8.94" y="1.7"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="1.4"/>
+      <secondPoint x="8.94" y="1.7"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT10</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="1.8"/>
+        <point x="8.94" y="2.1"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="1.8"/>
+      <secondPoint x="8.94" y="2.1"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT11</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="2.2"/>
+        <point x="8.94" y="2.5"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="2.2"/>
+      <secondPoint x="8.94" y="2.5"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT12</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="2.6"/>
+        <point x="8.94" y="2.9"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="2.6"/>
+      <secondPoint x="8.94" y="2.9"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT41</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="3.0"/>
+        <point x="8.94" y="3.3"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="3.0"/>
+      <secondPoint x="8.94" y="3.3"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT42</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="3.4"/>
+        <point x="8.94" y="3.7"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="3.4"/>
+      <secondPoint x="8.94" y="3.7"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT43</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="3.8"/>
+        <point x="8.94" y="4.1"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="3.8"/>
+      <secondPoint x="8.94" y="4.1"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT44</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.755" y="4.2"/>
+        <point x="8.94" y="4.5"/>
+      </controlPoints>
+      <firstPoint x="7.755" y="4.2"/>
+      <secondPoint x="8.94" y="4.5"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT84</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.05" y="0.4"/>
+        <point x="0.75" y="0.95"/>
+      </controlPoints>
+      <firstPoint x="0.05" y="0.4"/>
+      <secondPoint x="0.75" y="0.95"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT86</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="0.8"/>
+        <point x="9.35" y="1.15"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="0.8"/>
+      <secondPoint x="9.35" y="1.15"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT87</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="0.8"/>
+        <point x="9.8" y="1.15"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="0.8"/>
+      <secondPoint x="9.8" y="1.15"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT88</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="0.8"/>
+        <point x="10.25" y="1.15"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="0.8"/>
+      <secondPoint x="10.25" y="1.15"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT89</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="1.2"/>
+        <point x="9.35" y="1.55"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="1.2"/>
+      <secondPoint x="9.35" y="1.55"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT90</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="1.2"/>
+        <point x="9.8" y="1.55"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="1.2"/>
+      <secondPoint x="9.8" y="1.55"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT91</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="1.2"/>
+        <point x="10.25" y="1.55"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="1.2"/>
+      <secondPoint x="10.25" y="1.55"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT92</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="1.6"/>
+        <point x="9.35" y="1.95"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="1.6"/>
+      <secondPoint x="9.35" y="1.95"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT93</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="1.6"/>
+        <point x="9.8" y="1.95"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="1.6"/>
+      <secondPoint x="9.8" y="1.95"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT94</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="1.6"/>
+        <point x="10.25" y="1.95"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="1.6"/>
+      <secondPoint x="10.25" y="1.95"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT95</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="2.0"/>
+        <point x="9.35" y="2.35"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="2.0"/>
+      <secondPoint x="9.35" y="2.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT96</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="2.0"/>
+        <point x="9.8" y="2.35"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="2.0"/>
+      <secondPoint x="9.8" y="2.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT97</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="2.0"/>
+        <point x="10.25" y="2.35"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="2.0"/>
+      <secondPoint x="10.25" y="2.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT98</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="2.4"/>
+        <point x="9.35" y="2.75"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="2.4"/>
+      <secondPoint x="9.35" y="2.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT99</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="2.4"/>
+        <point x="9.8" y="2.75"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="2.4"/>
+      <secondPoint x="9.8" y="2.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT100</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="2.4"/>
+        <point x="10.25" y="2.75"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="2.4"/>
+      <secondPoint x="10.25" y="2.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT101</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="2.8"/>
+        <point x="9.35" y="3.15"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="2.8"/>
+      <secondPoint x="9.35" y="3.15"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT102</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="2.8"/>
+        <point x="9.8" y="3.15"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="2.8"/>
+      <secondPoint x="9.8" y="3.15"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT103</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="2.8"/>
+        <point x="10.25" y="3.15"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="2.8"/>
+      <secondPoint x="10.25" y="3.15"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT104</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="3.2"/>
+        <point x="9.35" y="3.55"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="3.2"/>
+      <secondPoint x="9.35" y="3.55"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT105</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="3.2"/>
+        <point x="9.8" y="3.55"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="3.2"/>
+      <secondPoint x="9.8" y="3.55"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT106</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="3.2"/>
+        <point x="10.25" y="3.55"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="3.2"/>
+      <secondPoint x="10.25" y="3.55"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT107</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.63" y="4.845"/>
+        <point x="6.885" y="5.1"/>
+      </controlPoints>
+      <firstPoint x="6.63" y="4.845"/>
+      <secondPoint x="6.885" y="5.1"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT108</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="3.6"/>
+        <point x="9.8" y="3.95"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="3.6"/>
+      <secondPoint x="9.8" y="3.95"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT109</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="3.6"/>
+        <point x="10.25" y="3.95"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="3.6"/>
+      <secondPoint x="10.25" y="3.95"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT110</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.95" y="0.4"/>
+        <point x="9.35" y="0.75"/>
+      </controlPoints>
+      <firstPoint x="8.95" y="0.4"/>
+      <secondPoint x="9.35" y="0.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT111</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.4" y="0.4"/>
+        <point x="9.8" y="0.75"/>
+      </controlPoints>
+      <firstPoint x="9.4" y="0.4"/>
+      <secondPoint x="9.8" y="0.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT112</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.85" y="0.4"/>
+        <point x="10.25" y="0.75"/>
+      </controlPoints>
+      <firstPoint x="9.85" y="0.4"/>
+      <secondPoint x="10.25" y="0.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT83</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.09" y="0.54"/>
+        <point x="7.49" y="0.89"/>
+      </controlPoints>
+      <firstPoint x="7.09" y="0.54"/>
+      <secondPoint x="7.49" y="0.89"/>
+      <color hex="ff3333"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.4" unit="mm"/>
+      <edgeRadius value="2.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT4</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="1.0"/>
+        <point x="7.74" y="1.3"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="1.0"/>
+      <secondPoint x="7.74" y="1.3"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT13</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="1.4"/>
+        <point x="7.74" y="1.7"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="1.4"/>
+      <secondPoint x="7.74" y="1.7"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT14</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="1.8"/>
+        <point x="7.74" y="2.1"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="1.8"/>
+      <secondPoint x="7.74" y="2.1"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT39</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="2.2"/>
+        <point x="7.74" y="2.5"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="2.2"/>
+      <secondPoint x="7.74" y="2.5"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT51</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="2.6"/>
+        <point x="7.74" y="2.9"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="2.6"/>
+      <secondPoint x="7.74" y="2.9"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT52</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="3.0"/>
+        <point x="7.74" y="3.3"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="3.0"/>
+      <secondPoint x="7.74" y="3.3"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT53</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="3.4"/>
+        <point x="7.74" y="3.7"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="3.4"/>
+      <secondPoint x="7.74" y="3.7"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT54</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="3.8"/>
+        <point x="7.74" y="4.1"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="3.8"/>
+      <secondPoint x="7.74" y="4.1"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT55</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.555" y="4.2"/>
+        <point x="7.74" y="4.5"/>
+      </controlPoints>
+      <firstPoint x="6.555" y="4.2"/>
+      <secondPoint x="7.74" y="4.5"/>
+      <color hex="3399ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT58</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.25" y="0.4"/>
+        <point x="2.45" y="0.65"/>
+      </controlPoints>
+      <firstPoint x="1.25" y="0.4"/>
+      <secondPoint x="2.45" y="0.65"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT59</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.25" y="0.7"/>
+        <point x="2.45" y="0.95"/>
+      </controlPoints>
+      <firstPoint x="1.25" y="0.7"/>
+      <secondPoint x="2.45" y="0.95"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT60</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.5" y="0.4"/>
+        <point x="3.7" y="0.65"/>
+      </controlPoints>
+      <firstPoint x="2.5" y="0.4"/>
+      <secondPoint x="3.7" y="0.65"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT61</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.5" y="0.7"/>
+        <point x="3.7" y="0.95"/>
+      </controlPoints>
+      <firstPoint x="2.5" y="0.7"/>
+      <secondPoint x="3.7" y="0.95"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT62</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.75" y="0.4"/>
+        <point x="4.95" y="0.65"/>
+      </controlPoints>
+      <firstPoint x="3.75" y="0.4"/>
+      <secondPoint x="4.95" y="0.65"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT63</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.75" y="0.7"/>
+        <point x="4.95" y="0.95"/>
+      </controlPoints>
+      <firstPoint x="3.75" y="0.7"/>
+      <secondPoint x="4.95" y="0.95"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT45</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.0" y="0.4"/>
+        <point x="6.2" y="0.65"/>
+      </controlPoints>
+      <firstPoint x="5.0" y="0.4"/>
+      <secondPoint x="6.2" y="0.65"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT65</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.0" y="0.7"/>
+        <point x="6.2" y="0.95"/>
+      </controlPoints>
+      <firstPoint x="5.0" y="0.7"/>
+      <secondPoint x="6.2" y="0.95"/>
+      <color hex="0000cc"/>
+      <borderColor hex="99ffff"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="5.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT56</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.15" y="4.4"/>
+        <point x="0.5" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="0.15" y="4.4"/>
+      <secondPoint x="0.5" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT57</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.95" y="4.4"/>
+        <point x="1.3" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="0.95" y="4.4"/>
+      <secondPoint x="1.3" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT85</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.55" y="4.4"/>
+        <point x="0.9" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="0.55" y="4.4"/>
+      <secondPoint x="0.9" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT113</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.35" y="4.4"/>
+        <point x="1.7" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="1.35" y="4.4"/>
+      <secondPoint x="1.7" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT114</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.15" y="4.4"/>
+        <point x="2.5" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="2.15" y="4.4"/>
+      <secondPoint x="2.5" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT115</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.75" y="4.4"/>
+        <point x="2.1" y="4.75"/>
+      </controlPoints>
+      <firstPoint x="1.75" y="4.4"/>
+      <secondPoint x="2.1" y="4.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT116</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.15" y="4.0"/>
+        <point x="0.5" y="4.35"/>
+      </controlPoints>
+      <firstPoint x="0.15" y="4.0"/>
+      <secondPoint x="0.5" y="4.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT117</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.95" y="4.0"/>
+        <point x="1.3" y="4.35"/>
+      </controlPoints>
+      <firstPoint x="0.95" y="4.0"/>
+      <secondPoint x="1.3" y="4.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT118</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.55" y="4.0"/>
+        <point x="0.9" y="4.35"/>
+      </controlPoints>
+      <firstPoint x="0.55" y="4.0"/>
+      <secondPoint x="0.9" y="4.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT119</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.35" y="4.0"/>
+        <point x="1.7" y="4.35"/>
+      </controlPoints>
+      <firstPoint x="1.35" y="4.0"/>
+      <secondPoint x="1.7" y="4.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT120</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.15" y="4.0"/>
+        <point x="2.5" y="4.35"/>
+      </controlPoints>
+      <firstPoint x="2.15" y="4.0"/>
+      <secondPoint x="2.5" y="4.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT121</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.75" y="4.0"/>
+        <point x="2.1" y="4.35"/>
+      </controlPoints>
+      <firstPoint x="1.75" y="4.0"/>
+      <secondPoint x="2.1" y="4.35"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT122</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.05" y="3.85"/>
+        <point x="0.45" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="0.05" y="3.85"/>
+      <secondPoint x="0.45" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT123</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.5" y="3.85"/>
+        <point x="0.9" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="0.5" y="3.85"/>
+      <secondPoint x="0.9" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT124</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.95" y="3.85"/>
+        <point x="1.35" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="0.95" y="3.85"/>
+      <secondPoint x="1.35" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT125</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.4" y="3.85"/>
+        <point x="1.8" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="1.4" y="3.85"/>
+      <secondPoint x="1.8" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT126</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.85" y="3.85"/>
+        <point x="2.25" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="1.85" y="3.85"/>
+      <secondPoint x="2.25" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT127</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.3" y="3.85"/>
+        <point x="2.7" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="2.3" y="3.85"/>
+      <secondPoint x="2.7" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT128</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.75" y="3.85"/>
+        <point x="3.15" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="2.75" y="3.85"/>
+      <secondPoint x="3.15" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT129</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.2" y="3.85"/>
+        <point x="3.6" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="3.2" y="3.85"/>
+      <secondPoint x="3.6" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT130</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.65" y="3.85"/>
+        <point x="4.05" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="3.65" y="3.85"/>
+      <secondPoint x="4.05" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT131</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.1" y="3.85"/>
+        <point x="4.5" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="4.1" y="3.85"/>
+      <secondPoint x="4.5" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT132</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.55" y="3.85"/>
+        <point x="4.95" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="4.55" y="3.85"/>
+      <secondPoint x="4.95" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT133</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.0" y="3.85"/>
+        <point x="5.4" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="5.0" y="3.85"/>
+      <secondPoint x="5.4" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT134</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.45" y="3.85"/>
+        <point x="5.85" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="5.45" y="3.85"/>
+      <secondPoint x="5.85" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT135</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.9" y="3.85"/>
+        <point x="6.3" y="4.25"/>
+      </controlPoints>
+      <firstPoint x="5.9" y="3.85"/>
+      <secondPoint x="6.3" y="4.25"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT136</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.61" y="-0.845"/>
+        <point x="-5.21" y="-0.445"/>
+      </controlPoints>
+      <firstPoint x="-5.61" y="-0.845"/>
+      <secondPoint x="-5.21" y="-0.445"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT137</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.76" y="0.0"/>
+        <point x="-5.44" y="0.32"/>
+      </controlPoints>
+      <firstPoint x="-5.76" y="0.0"/>
+      <secondPoint x="-5.44" y="0.32"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT138</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.3" y="-1.6"/>
+        <point x="-4.4" y="-1.2"/>
+      </controlPoints>
+      <firstPoint x="-5.3" y="-1.6"/>
+      <secondPoint x="-4.4" y="-1.2"/>
+      <color hex="000000"/>
+      <borderColor hex="cccccc"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="2.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT139</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.72" y="-0.855"/>
+        <point x="-4.32" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-4.72" y="-0.855"/>
+      <secondPoint x="-4.32" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT140</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.27" y="-0.855"/>
+        <point x="-3.87" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-4.27" y="-0.855"/>
+      <secondPoint x="-3.87" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT141</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.82" y="-0.855"/>
+        <point x="-3.42" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-3.82" y="-0.855"/>
+      <secondPoint x="-3.42" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT142</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.37" y="-0.855"/>
+        <point x="-2.97" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-3.37" y="-0.855"/>
+      <secondPoint x="-2.97" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT143</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.92" y="-0.855"/>
+        <point x="-2.52" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-2.92" y="-0.855"/>
+      <secondPoint x="-2.52" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT144</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.47" y="-0.855"/>
+        <point x="-2.07" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-2.47" y="-0.855"/>
+      <secondPoint x="-2.07" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT145</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.02" y="-0.855"/>
+        <point x="-1.62" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-2.02" y="-0.855"/>
+      <secondPoint x="-1.62" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT146</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.57" y="-0.855"/>
+        <point x="-1.17" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-1.57" y="-0.855"/>
+      <secondPoint x="-1.17" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT147</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.12" y="-0.855"/>
+        <point x="-0.72" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-1.12" y="-0.855"/>
+      <secondPoint x="-0.72" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT148</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-0.67" y="-0.855"/>
+        <point x="-0.27" y="-0.455"/>
+      </controlPoints>
+      <firstPoint x="-0.67" y="-0.855"/>
+      <secondPoint x="-0.27" y="-0.455"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT17</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.1" y="2.0"/>
+        <point x="0.65" y="2.8"/>
+      </controlPoints>
+      <firstPoint x="0.1" y="2.0"/>
+      <secondPoint x="0.65" y="2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT150</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.75" y="2.0"/>
+        <point x="6.3" y="2.8"/>
+      </controlPoints>
+      <firstPoint x="5.75" y="2.0"/>
+      <secondPoint x="6.3" y="2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Polygon>
+      <name>POLY1</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.55" y="2.1"/>
+        <point x="0.15" y="2.4"/>
+        <point x="0.55" y="2.7"/>
+      </controlPoints>
+      <firstPoint x="0.15" y="2.1"/>
+      <secondPoint x="0.55" y="2.4"/>
+      <color hex="3333ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <pointCount>_3</pointCount>
+    </diylc.shapes.Polygon>
+    <diylc.shapes.Polygon>
+      <name>POLY2</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.855" y="2.75"/>
+        <point x="6.255" y="2.45"/>
+        <point x="5.855" y="2.15"/>
+      </controlPoints>
+      <firstPoint x="5.855" y="2.45"/>
+      <secondPoint x="6.255" y="2.75"/>
+      <color hex="3333ff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <pointCount>_3</pointCount>
+    </diylc.shapes.Polygon>
+    <diylc.shapes.Rectangle>
+      <name>RECT159</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.77" y="0.39"/>
+        <point x="-5.45" y="0.71"/>
+      </controlPoints>
+      <firstPoint x="-5.77" y="0.39"/>
+      <secondPoint x="-5.45" y="0.71"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT160</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.08" y="-0.32"/>
+        <point x="-5.76" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-6.08" y="-0.32"/>
+      <secondPoint x="-5.76" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT161</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.76" y="-0.32"/>
+        <point x="-5.44" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-5.76" y="-0.32"/>
+      <secondPoint x="-5.44" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT162</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.44" y="-0.32"/>
+        <point x="-5.12" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-5.44" y="-0.32"/>
+      <secondPoint x="-5.12" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT163</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.12" y="-0.32"/>
+        <point x="-4.8" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-5.12" y="-0.32"/>
+      <secondPoint x="-4.8" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT164</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.8" y="-0.32"/>
+        <point x="-4.48" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-4.8" y="-0.32"/>
+      <secondPoint x="-4.48" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT165</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.48" y="-0.32"/>
+        <point x="-4.16" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-4.48" y="-0.32"/>
+      <secondPoint x="-4.16" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT166</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.16" y="-0.32"/>
+        <point x="-3.84" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-4.16" y="-0.32"/>
+      <secondPoint x="-3.84" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT167</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.84" y="-0.32"/>
+        <point x="-3.52" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-3.84" y="-0.32"/>
+      <secondPoint x="-3.52" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT168</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.52" y="-0.32"/>
+        <point x="-3.2" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-3.52" y="-0.32"/>
+      <secondPoint x="-3.2" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT169</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.2" y="-0.32"/>
+        <point x="-2.88" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-3.2" y="-0.32"/>
+      <secondPoint x="-2.88" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT170</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.88" y="-0.32"/>
+        <point x="-2.56" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-2.88" y="-0.32"/>
+      <secondPoint x="-2.56" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT171</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.56" y="-0.32"/>
+        <point x="-2.24" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-2.56" y="-0.32"/>
+      <secondPoint x="-2.24" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT172</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.24" y="-0.32"/>
+        <point x="-1.92" y="0.0"/>
+      </controlPoints>
+      <firstPoint x="-2.24" y="-0.32"/>
+      <secondPoint x="-1.92" y="0.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT173</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.4" y="-1.565"/>
+        <point x="0.8" y="-1.165"/>
+      </controlPoints>
+      <firstPoint x="0.4" y="-1.565"/>
+      <secondPoint x="0.8" y="-1.165"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT157</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.0" y="-3.2"/>
+        <point x="-5.4" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="-6.0" y="-3.2"/>
+      <secondPoint x="-5.4" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT174</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.0" y="-3.2"/>
+        <point x="-5.4" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="-6.0" y="-3.2"/>
+      <secondPoint x="-5.4" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT180</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.025" y="-3.41"/>
+        <point x="-4.825" y="-2.61"/>
+      </controlPoints>
+      <firstPoint x="-6.025" y="-3.41"/>
+      <secondPoint x="-4.825" y="-2.61"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT181</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.78" y="-3.41"/>
+        <point x="-3.58" y="-2.61"/>
+      </controlPoints>
+      <firstPoint x="-4.78" y="-3.41"/>
+      <secondPoint x="-3.58" y="-2.61"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT182</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.54" y="-3.415"/>
+        <point x="-2.34" y="-2.615"/>
+      </controlPoints>
+      <firstPoint x="-3.54" y="-3.415"/>
+      <secondPoint x="-2.34" y="-2.615"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT183</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.3" y="-3.415"/>
+        <point x="-1.1" y="-2.615"/>
+      </controlPoints>
+      <firstPoint x="-2.3" y="-3.415"/>
+      <secondPoint x="-1.1" y="-2.615"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT184</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.06" y="-3.415"/>
+        <point x="0.14" y="-2.615"/>
+      </controlPoints>
+      <firstPoint x="-1.06" y="-3.415"/>
+      <secondPoint x="0.14" y="-2.615"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT185</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.025" y="-4.31"/>
+        <point x="-4.825" y="-3.51"/>
+      </controlPoints>
+      <firstPoint x="-6.025" y="-4.31"/>
+      <secondPoint x="-4.825" y="-3.51"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT186</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.78" y="-4.31"/>
+        <point x="-3.58" y="-3.51"/>
+      </controlPoints>
+      <firstPoint x="-4.78" y="-4.31"/>
+      <secondPoint x="-3.58" y="-3.51"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT187</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.54" y="-4.315"/>
+        <point x="-2.34" y="-3.515"/>
+      </controlPoints>
+      <firstPoint x="-3.54" y="-4.315"/>
+      <secondPoint x="-2.34" y="-3.515"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT188</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.3" y="-4.315"/>
+        <point x="-1.1" y="-3.515"/>
+      </controlPoints>
+      <firstPoint x="-2.3" y="-4.315"/>
+      <secondPoint x="-1.1" y="-3.515"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT189</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.06" y="-4.315"/>
+        <point x="0.14" y="-3.515"/>
+      </controlPoints>
+      <firstPoint x="-1.06" y="-4.315"/>
+      <secondPoint x="0.14" y="-3.515"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT190</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.025" y="-5.21"/>
+        <point x="-4.825" y="-4.41"/>
+      </controlPoints>
+      <firstPoint x="-6.025" y="-5.21"/>
+      <secondPoint x="-4.825" y="-4.41"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT191</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.78" y="-5.21"/>
+        <point x="-3.58" y="-4.41"/>
+      </controlPoints>
+      <firstPoint x="-4.78" y="-5.21"/>
+      <secondPoint x="-3.58" y="-4.41"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT192</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.54" y="-5.215"/>
+        <point x="-2.34" y="-4.415"/>
+      </controlPoints>
+      <firstPoint x="-3.54" y="-5.215"/>
+      <secondPoint x="-2.34" y="-4.415"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT193</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.3" y="-5.215"/>
+        <point x="-1.1" y="-4.415"/>
+      </controlPoints>
+      <firstPoint x="-2.3" y="-5.215"/>
+      <secondPoint x="-1.1" y="-4.415"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT194</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.06" y="-5.215"/>
+        <point x="0.14" y="-4.415"/>
+      </controlPoints>
+      <firstPoint x="-1.06" y="-5.215"/>
+      <secondPoint x="0.14" y="-4.415"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT152</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.535" y="-1.6"/>
+        <point x="-3.195" y="-1.105"/>
+      </controlPoints>
+      <firstPoint x="-3.535" y="-1.6"/>
+      <secondPoint x="-3.195" y="-1.105"/>
+      <color hex="000000"/>
+      <borderColor hex="cccccc"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="2.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT153</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-0.4" y="-1.6"/>
+        <point x="0.16" y="-1.105"/>
+      </controlPoints>
+      <firstPoint x="-0.4" y="-1.6"/>
+      <secondPoint x="0.16" y="-1.105"/>
+      <color hex="000000"/>
+      <borderColor hex="cccccc"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="2.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT154</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.0" y="-1.6"/>
+        <point x="-5.44" y="-1.105"/>
+      </controlPoints>
+      <firstPoint x="-6.0" y="-1.6"/>
+      <secondPoint x="-5.44" y="-1.105"/>
+      <color hex="000000"/>
+      <borderColor hex="cccccc"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="2.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT151</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.0" y="-2.345"/>
+        <point x="-5.4" y="-1.945"/>
+      </controlPoints>
+      <firstPoint x="-6.0" y="-2.345"/>
+      <secondPoint x="-5.4" y="-1.945"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT155</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.0" y="-2.345"/>
+        <point x="-5.4" y="-1.945"/>
+      </controlPoints>
+      <firstPoint x="-6.0" y="-2.345"/>
+      <secondPoint x="-5.4" y="-1.945"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT158</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-6.025" y="-2.505"/>
+        <point x="-4.825" y="-1.705"/>
+      </controlPoints>
+      <firstPoint x="-6.025" y="-2.505"/>
+      <secondPoint x="-4.825" y="-1.705"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT175</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-4.78" y="-2.505"/>
+        <point x="-3.58" y="-1.705"/>
+      </controlPoints>
+      <firstPoint x="-4.78" y="-2.505"/>
+      <secondPoint x="-3.58" y="-1.705"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT176</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-3.54" y="-2.51"/>
+        <point x="-2.34" y="-1.71"/>
+      </controlPoints>
+      <firstPoint x="-3.54" y="-2.51"/>
+      <secondPoint x="-2.34" y="-1.71"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT177</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-2.3" y="-2.51"/>
+        <point x="-1.1" y="-1.71"/>
+      </controlPoints>
+      <firstPoint x="-2.3" y="-2.51"/>
+      <secondPoint x="-1.1" y="-1.71"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT178</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-1.06" y="-2.51"/>
+        <point x="0.14" y="-1.71"/>
+      </controlPoints>
+      <firstPoint x="-1.06" y="-2.51"/>
+      <secondPoint x="0.14" y="-1.71"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.2" unit="mm"/>
+      <edgeRadius value="0.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT179</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="-5.21" y="-0.8"/>
+        <point x="-4.81" y="-0.4"/>
+      </controlPoints>
+      <firstPoint x="-5.21" y="-0.8"/>
+      <secondPoint x="-4.81" y="-0.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT195</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.8" y="-1.565"/>
+        <point x="1.2" y="-1.165"/>
+      </controlPoints>
+      <firstPoint x="0.8" y="-1.565"/>
+      <secondPoint x="1.2" y="-1.165"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT196</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.2" y="-1.565"/>
+        <point x="1.6" y="-1.165"/>
+      </controlPoints>
+      <firstPoint x="1.2" y="-1.565"/>
+      <secondPoint x="1.6" y="-1.165"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT197</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.6" y="-1.565"/>
+        <point x="2.0" y="-1.165"/>
+      </controlPoints>
+      <firstPoint x="1.6" y="-1.565"/>
+      <secondPoint x="2.0" y="-1.165"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT198</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.4" y="-1.565"/>
+        <point x="2.8" y="-1.165"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="-1.565"/>
+      <secondPoint x="2.8" y="-1.165"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT199</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.0" y="-1.565"/>
+        <point x="2.4" y="-1.165"/>
+      </controlPoints>
+      <firstPoint x="2.0" y="-1.565"/>
+      <secondPoint x="2.4" y="-1.165"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT200</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.37500000000000006" y="-2.6250000000000004"/>
+        <point x="0.7500000000000001" y="-2.2500000000000004"/>
+      </controlPoints>
+      <firstPoint x="0.37500000000000006" y="-2.6250000000000004"/>
+      <secondPoint x="0.7500000000000001" y="-2.2500000000000004"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT203</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.5000000000000002" y="-2.6250000000000004"/>
+        <point x="1.5000000000000002" y="-2.2500000000000004"/>
+      </controlPoints>
+      <firstPoint x="1.5000000000000002" y="-2.6250000000000004"/>
+      <secondPoint x="1.5000000000000002" y="-2.2500000000000004"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.3" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT202</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.8" y="-2.275"/>
+        <point x="1.2" y="-1.875"/>
+      </controlPoints>
+      <firstPoint x="0.8" y="-2.275"/>
+      <secondPoint x="1.2" y="-1.875"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT204</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.2" y="-2.275"/>
+        <point x="1.6" y="-1.875"/>
+      </controlPoints>
+      <firstPoint x="1.2" y="-2.275"/>
+      <secondPoint x="1.6" y="-1.875"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT205</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.6" y="-2.275"/>
+        <point x="2.0" y="-1.875"/>
+      </controlPoints>
+      <firstPoint x="1.6" y="-2.275"/>
+      <secondPoint x="2.0" y="-1.875"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT206</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.0" y="-2.275"/>
+        <point x="2.4" y="-1.875"/>
+      </controlPoints>
+      <firstPoint x="2.0" y="-2.275"/>
+      <secondPoint x="2.4" y="-1.875"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT207</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.8" y="-2.275"/>
+        <point x="3.2" y="-1.875"/>
+      </controlPoints>
+      <firstPoint x="2.8" y="-2.275"/>
+      <secondPoint x="3.2" y="-1.875"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT208</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.4" y="-2.275"/>
+        <point x="2.8" y="-1.875"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="-2.275"/>
+      <secondPoint x="2.8" y="-1.875"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT210</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.425000000000001" y="-1.8750000000000002"/>
+        <point x="3.825000000000001" y="-1.4750000000000003"/>
+      </controlPoints>
+      <firstPoint x="3.425000000000001" y="-1.8750000000000002"/>
+      <secondPoint x="3.825000000000001" y="-1.4750000000000003"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT211</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.825000000000001" y="-1.8750000000000002"/>
+        <point x="4.225000000000001" y="-1.4750000000000003"/>
+      </controlPoints>
+      <firstPoint x="3.825000000000001" y="-1.8750000000000002"/>
+      <secondPoint x="4.225000000000001" y="-1.4750000000000003"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT212</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.225000000000001" y="-1.8750000000000002"/>
+        <point x="4.625000000000001" y="-1.4750000000000003"/>
+      </controlPoints>
+      <firstPoint x="4.225000000000001" y="-1.8750000000000002"/>
+      <secondPoint x="4.625000000000001" y="-1.4750000000000003"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT213</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.025000000000001" y="-1.8750000000000002"/>
+        <point x="5.425000000000001" y="-1.4750000000000003"/>
+      </controlPoints>
+      <firstPoint x="5.025000000000001" y="-1.8750000000000002"/>
+      <secondPoint x="5.425000000000001" y="-1.4750000000000003"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT214</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.625000000000001" y="-1.8750000000000002"/>
+        <point x="5.025000000000001" y="-1.4750000000000003"/>
+      </controlPoints>
+      <firstPoint x="4.625000000000001" y="-1.8750000000000002"/>
+      <secondPoint x="5.025000000000001" y="-1.4750000000000003"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT215</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.01" y="-0.625"/>
+        <point x="0.41" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="0.01" y="-0.625"/>
+      <secondPoint x="0.41" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT216</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.43" y="-0.625"/>
+        <point x="0.83" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="0.43" y="-0.625"/>
+      <secondPoint x="0.83" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT217</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="0.85" y="-0.625"/>
+        <point x="1.25" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="0.85" y="-0.625"/>
+      <secondPoint x="1.25" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT218</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.28" y="-0.625"/>
+        <point x="1.68" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="1.28" y="-0.625"/>
+      <secondPoint x="1.68" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT219</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.12" y="-0.625"/>
+        <point x="2.52" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="2.12" y="-0.625"/>
+      <secondPoint x="2.52" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT220</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.7" y="-0.625"/>
+        <point x="2.1" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="1.7" y="-0.625"/>
+      <secondPoint x="2.1" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT149</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.54" y="-0.625"/>
+        <point x="2.94" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="2.54" y="-0.625"/>
+      <secondPoint x="2.94" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT221</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.96" y="-0.625"/>
+        <point x="3.36" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="2.96" y="-0.625"/>
+      <secondPoint x="3.36" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT222</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.38" y="-0.625"/>
+        <point x="3.78" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="3.38" y="-0.625"/>
+      <secondPoint x="3.78" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT223</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.8" y="-0.625"/>
+        <point x="4.2" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="3.8" y="-0.625"/>
+      <secondPoint x="4.2" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT224</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.64" y="-0.625"/>
+        <point x="5.04" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="4.64" y="-0.625"/>
+      <secondPoint x="5.04" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT225</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.22" y="-0.625"/>
+        <point x="4.62" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="4.22" y="-0.625"/>
+      <secondPoint x="4.62" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT209</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.06" y="-0.62"/>
+        <point x="5.46" y="-0.22"/>
+      </controlPoints>
+      <firstPoint x="5.06" y="-0.62"/>
+      <secondPoint x="5.46" y="-0.22"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT226</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.48" y="-0.625"/>
+        <point x="5.88" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="5.48" y="-0.625"/>
+      <secondPoint x="5.88" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT227</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.9" y="-0.625"/>
+        <point x="6.3" y="-0.225"/>
+      </controlPoints>
+      <firstPoint x="5.9" y="-0.625"/>
+      <secondPoint x="6.3" y="-0.225"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT235</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.63" y="-5.2"/>
+        <point x="2.03" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="1.63" y="-5.2"/>
+      <secondPoint x="2.03" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT236</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.05" y="-5.2"/>
+        <point x="2.45" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="2.05" y="-5.2"/>
+      <secondPoint x="2.45" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT237</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.48" y="-5.2"/>
+        <point x="2.88" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="2.48" y="-5.2"/>
+      <secondPoint x="2.88" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT238</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.32" y="-5.2"/>
+        <point x="3.72" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="3.32" y="-5.2"/>
+      <secondPoint x="3.72" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT239</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.9" y="-5.2"/>
+        <point x="3.3" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="2.9" y="-5.2"/>
+      <secondPoint x="3.3" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT240</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.74" y="-5.2"/>
+        <point x="4.14" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="3.74" y="-5.2"/>
+      <secondPoint x="4.14" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT241</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.16" y="-5.2"/>
+        <point x="4.56" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="4.16" y="-5.2"/>
+      <secondPoint x="4.56" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT242</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.58" y="-5.2"/>
+        <point x="4.98" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="4.58" y="-5.2"/>
+      <secondPoint x="4.98" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT243</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.0" y="-5.2"/>
+        <point x="5.4" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="5.0" y="-5.2"/>
+      <secondPoint x="5.4" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT244</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.84" y="-5.2"/>
+        <point x="6.24" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="5.84" y="-5.2"/>
+      <secondPoint x="6.24" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT245</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.42" y="-5.2"/>
+        <point x="5.82" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="5.42" y="-5.2"/>
+      <secondPoint x="5.82" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT246</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.26" y="-5.195"/>
+        <point x="6.66" y="-4.795"/>
+      </controlPoints>
+      <firstPoint x="6.26" y="-5.195"/>
+      <secondPoint x="6.66" y="-4.795"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT247</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.68" y="-5.2"/>
+        <point x="7.08" y="-4.8"/>
+      </controlPoints>
+      <firstPoint x="6.68" y="-5.2"/>
+      <secondPoint x="7.08" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT250</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.63" y="-4.765"/>
+        <point x="2.03" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="1.63" y="-4.765"/>
+      <secondPoint x="2.03" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT251</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.05" y="-4.765"/>
+        <point x="2.45" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="2.05" y="-4.765"/>
+      <secondPoint x="2.45" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT252</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.48" y="-4.765"/>
+        <point x="2.88" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="2.48" y="-4.765"/>
+      <secondPoint x="2.88" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT253</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.32" y="-4.765"/>
+        <point x="3.72" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="3.32" y="-4.765"/>
+      <secondPoint x="3.72" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT254</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.9" y="-4.765"/>
+        <point x="3.3" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="2.9" y="-4.765"/>
+      <secondPoint x="3.3" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT255</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.74" y="-4.765"/>
+        <point x="4.14" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="3.74" y="-4.765"/>
+      <secondPoint x="4.14" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT256</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.16" y="-4.765"/>
+        <point x="4.56" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="4.16" y="-4.765"/>
+      <secondPoint x="4.56" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT257</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.58" y="-4.765"/>
+        <point x="4.98" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="4.58" y="-4.765"/>
+      <secondPoint x="4.98" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT258</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.0" y="-4.765"/>
+        <point x="5.4" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="5.0" y="-4.765"/>
+      <secondPoint x="5.4" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT259</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.84" y="-4.765"/>
+        <point x="6.24" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="5.84" y="-4.765"/>
+      <secondPoint x="6.24" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT260</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.42" y="-4.765"/>
+        <point x="5.82" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="5.42" y="-4.765"/>
+      <secondPoint x="5.82" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT261</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.26" y="-4.76"/>
+        <point x="6.66" y="-4.36"/>
+      </controlPoints>
+      <firstPoint x="6.26" y="-4.76"/>
+      <secondPoint x="6.66" y="-4.36"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT262</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.68" y="-4.765"/>
+        <point x="7.08" y="-4.365"/>
+      </controlPoints>
+      <firstPoint x="6.68" y="-4.765"/>
+      <secondPoint x="7.08" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT263</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.22" y="-5.64"/>
+        <point x="7.01" y="-5.24"/>
+      </controlPoints>
+      <firstPoint x="6.22" y="-5.64"/>
+      <secondPoint x="7.01" y="-5.24"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT201</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.1" y="-5.64"/>
+        <point x="7.89" y="-5.24"/>
+      </controlPoints>
+      <firstPoint x="7.1" y="-5.64"/>
+      <secondPoint x="7.89" y="-5.24"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT228</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.675" y="-5.665"/>
+        <point x="2.465" y="-5.265"/>
+      </controlPoints>
+      <firstPoint x="1.675" y="-5.665"/>
+      <secondPoint x="2.465" y="-5.265"/>
+      <color hex="ffff33"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT230</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="9.925" y="-4.375"/>
+        <point x="9.525" y="-3.585"/>
+      </controlPoints>
+      <firstPoint x="9.525" y="-4.375"/>
+      <secondPoint x="9.925" y="-3.585"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.5" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT231</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.535" y="-5.66"/>
+        <point x="6.125" y="-5.26"/>
+      </controlPoints>
+      <firstPoint x="2.535" y="-5.66"/>
+      <secondPoint x="6.125" y="-5.26"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT232</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.46" y="-5.755"/>
+        <point x="5.575" y="-6.055"/>
+      </controlPoints>
+      <firstPoint x="3.46" y="-6.055"/>
+      <secondPoint x="5.575" y="-5.755"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT234</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.735" y="-6.055"/>
+        <point x="3.335" y="-5.745"/>
+      </controlPoints>
+      <firstPoint x="1.735" y="-6.055"/>
+      <secondPoint x="3.335" y="-5.745"/>
+      <color hex="33cc00"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT249</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.9" y="-4.8"/>
+        <point x="7.11" y="-5.2"/>
+      </controlPoints>
+      <firstPoint x="7.11" y="-5.2"/>
+      <secondPoint x="7.9" y="-4.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.6" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT264</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.935" y="-3.2"/>
+        <point x="12.525" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="8.935" y="-3.2"/>
+      <secondPoint x="12.525" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT265</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="8.935" y="-2.4"/>
+        <point x="12.525" y="-2.0"/>
+      </controlPoints>
+      <firstPoint x="8.935" y="-2.4"/>
+      <secondPoint x="12.525" y="-2.0"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT266</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="10.39" y="-4.4"/>
+        <point x="9.99" y="-3.61"/>
+      </controlPoints>
+      <firstPoint x="9.99" y="-4.4"/>
+      <secondPoint x="10.39" y="-3.61"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.6" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT229</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.895" y="-4.365"/>
+        <point x="7.105" y="-4.765"/>
+      </controlPoints>
+      <firstPoint x="7.105" y="-4.765"/>
+      <secondPoint x="7.895" y="-4.365"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.6" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT248</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.725" y="-5.75"/>
+        <point x="7.84" y="-6.05"/>
+      </controlPoints>
+      <firstPoint x="5.725" y="-6.05"/>
+      <secondPoint x="7.84" y="-5.75"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.8" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT233</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.6" y="-3.6"/>
+        <point x="2.0" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="1.6" y="-3.6"/>
+      <secondPoint x="2.0" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT267</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.0" y="-3.6"/>
+        <point x="2.4" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="2.0" y="-3.6"/>
+      <secondPoint x="2.4" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT268</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.4" y="-3.6"/>
+        <point x="2.8" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="-3.6"/>
+      <secondPoint x="2.8" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT269</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.8" y="-3.6"/>
+        <point x="3.2" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="2.8" y="-3.6"/>
+      <secondPoint x="3.2" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT270</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.6" y="-3.6"/>
+        <point x="4.0" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="3.6" y="-3.6"/>
+      <secondPoint x="4.0" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT271</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.2" y="-3.6"/>
+        <point x="3.6" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="3.2" y="-3.6"/>
+      <secondPoint x="3.6" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT272</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.0" y="-3.6"/>
+        <point x="4.4" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="4.0" y="-3.6"/>
+      <secondPoint x="4.4" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT273</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.4" y="-3.6"/>
+        <point x="4.8" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="4.4" y="-3.6"/>
+      <secondPoint x="4.8" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT274</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.8" y="-3.6"/>
+        <point x="5.2" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="4.8" y="-3.6"/>
+      <secondPoint x="5.2" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT275</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.2" y="-3.6"/>
+        <point x="5.6" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="5.2" y="-3.6"/>
+      <secondPoint x="5.6" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT276</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.0" y="-3.6"/>
+        <point x="6.4" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="6.0" y="-3.6"/>
+      <secondPoint x="6.4" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT277</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.6" y="-3.6"/>
+        <point x="6.0" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="5.6" y="-3.6"/>
+      <secondPoint x="6.0" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT278</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.6" y="-3.2"/>
+        <point x="2.0" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="1.6" y="-3.2"/>
+      <secondPoint x="2.0" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT279</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.0" y="-3.2"/>
+        <point x="2.4" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="2.0" y="-3.2"/>
+      <secondPoint x="2.4" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT280</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.4" y="-3.2"/>
+        <point x="2.8" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="-3.2"/>
+      <secondPoint x="2.8" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT281</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.8" y="-3.2"/>
+        <point x="3.2" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="2.8" y="-3.2"/>
+      <secondPoint x="3.2" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT282</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.6" y="-3.2"/>
+        <point x="4.0" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="3.6" y="-3.2"/>
+      <secondPoint x="4.0" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT283</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.2" y="-3.2"/>
+        <point x="3.6" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="3.2" y="-3.2"/>
+      <secondPoint x="3.6" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT284</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="1.6" y="-2.8"/>
+        <point x="2.0" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="1.6" y="-2.8"/>
+      <secondPoint x="2.0" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT285</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.0" y="-2.8"/>
+        <point x="2.4" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="2.0" y="-2.8"/>
+      <secondPoint x="2.4" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT286</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.4" y="-2.8"/>
+        <point x="2.8" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="2.4" y="-2.8"/>
+      <secondPoint x="2.8" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT287</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="2.8" y="-2.8"/>
+        <point x="3.2" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="2.8" y="-2.8"/>
+      <secondPoint x="3.2" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT288</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.6" y="-2.8"/>
+        <point x="4.0" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="3.6" y="-2.8"/>
+      <secondPoint x="4.0" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT289</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="3.2" y="-2.8"/>
+        <point x="3.6" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="3.2" y="-2.8"/>
+      <secondPoint x="3.6" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT290</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.0" y="-3.2"/>
+        <point x="4.4" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="4.0" y="-3.2"/>
+      <secondPoint x="4.4" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT291</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.4" y="-3.2"/>
+        <point x="4.8" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="4.4" y="-3.2"/>
+      <secondPoint x="4.8" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT292</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.8" y="-3.2"/>
+        <point x="5.2" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="4.8" y="-3.2"/>
+      <secondPoint x="5.2" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT293</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.2" y="-3.2"/>
+        <point x="5.6" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="5.2" y="-3.2"/>
+      <secondPoint x="5.6" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT294</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.0" y="-3.2"/>
+        <point x="6.4" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="6.0" y="-3.2"/>
+      <secondPoint x="6.4" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT295</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.6" y="-3.2"/>
+        <point x="6.0" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="5.6" y="-3.2"/>
+      <secondPoint x="6.0" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT296</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.0" y="-2.8"/>
+        <point x="4.4" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="4.0" y="-2.8"/>
+      <secondPoint x="4.4" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT297</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.4" y="-2.8"/>
+        <point x="4.8" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="4.4" y="-2.8"/>
+      <secondPoint x="4.8" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT298</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.8" y="-2.8"/>
+        <point x="5.2" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="4.8" y="-2.8"/>
+      <secondPoint x="5.2" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT299</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.2" y="-2.8"/>
+        <point x="5.6" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="5.2" y="-2.8"/>
+      <secondPoint x="5.6" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT300</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.0" y="-2.8"/>
+        <point x="6.4" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="6.0" y="-2.8"/>
+      <secondPoint x="6.4" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT301</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="5.6" y="-2.8"/>
+        <point x="6.0" y="-2.4"/>
+      </controlPoints>
+      <firstPoint x="5.6" y="-2.8"/>
+      <secondPoint x="6.0" y="-2.4"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT302</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.405000000000001" y="-3.6"/>
+        <point x="6.8050000000000015" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="6.405000000000001" y="-3.6"/>
+      <secondPoint x="6.8050000000000015" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT303</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.8050000000000015" y="-3.6"/>
+        <point x="7.205000000000001" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="6.8050000000000015" y="-3.6"/>
+      <secondPoint x="7.205000000000001" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT304</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.205000000000001" y="-3.6"/>
+        <point x="7.605000000000001" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="7.205000000000001" y="-3.6"/>
+      <secondPoint x="7.605000000000001" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT305</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.405000000000001" y="-3.2"/>
+        <point x="6.8050000000000015" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="6.405000000000001" y="-3.2"/>
+      <secondPoint x="6.8050000000000015" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT306</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="6.8050000000000015" y="-3.2"/>
+        <point x="7.205000000000001" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="6.8050000000000015" y="-3.2"/>
+      <secondPoint x="7.205000000000001" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT307</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="7.205000000000001" y="-3.2"/>
+        <point x="7.605000000000001" y="-2.8"/>
+      </controlPoints>
+      <firstPoint x="7.205000000000001" y="-3.2"/>
+      <secondPoint x="7.605000000000001" y="-2.8"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.shapes.Rectangle>
+      <name>RECT308</name>
+      <alpha>127</alpha>
+      <value></value>
+      <controlPoints>
+        <point x="4.405000000000001" y="-3.6"/>
+        <point x="4.8050000000000015" y="-3.2"/>
+      </controlPoints>
+      <firstPoint x="4.405000000000001" y="-3.6"/>
+      <secondPoint x="4.8050000000000015" y="-3.2"/>
+      <color hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <borderThickness value="0.7" unit="mm"/>
+      <edgeRadius value="3.0" unit="mm"/>
+    </diylc.shapes.Rectangle>
+    <diylc.misc.Label>
+      <name>LAB1</name>
+      <point x="11.0" y="3.945"/>
+      <text>Artist Name Here</text>
+      <font name="GeezaPro-Bold" size="15" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB6</name>
+      <point x="1.4" y="0.2"/>
+      <text>Outside Obie</text>
+      <font name="BodoniSvtyTwoSCITCTT-Book" size="66" style="0"/>
+      <color hex="ff0000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB13</name>
+      <point x="1.32" y="2.035"/>
+      <text>Artist Name Here</text>
+      <font name="GeezaPro-Bold" size="28" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB14</name>
+      <point x="1.305" y="2.805"/>
+      <text>Song Title Appears On This Line</text>
+      <font name="GeezaPro" size="15" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB15</name>
+      <point x="0.7" y="1.075"/>
+      <text>Artist Name Here</text>
+      <font name="GeezaPro-Bold" size="28" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB16</name>
+      <point x="0.7" y="1.855"/>
+      <text>Song Title Appears On This Line</text>
+      <font name="GeezaPro" size="15" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB17</name>
+      <point x="0.7" y="2.975"/>
+      <text>Artist Name Here</text>
+      <font name="GeezaPro-Bold" size="28" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB18</name>
+      <point x="0.7" y="3.755"/>
+      <text>Song Title Appears On This Line</text>
+      <font name="GeezaPro" size="15" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB19</name>
+      <point x="0.7" y="3.925"/>
+      <text>Artist Name Here</text>
+      <font name="GeezaPro-Bold" size="28" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB20</name>
+      <point x="0.7" y="4.705"/>
+      <text>Song Title Appears On This Line</text>
+      <font name="GeezaPro" size="15" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB3</name>
+      <point x="4.5" y="0.28"/>
+      <text>Coming Up : [Artist] ~ [SongTitle]    ....    [Artist] ~ [SongTitle]    .... </text>
+      <font name="GeezaPro-BoldItalic-Derived" size="20" style="3"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB4</name>
+      <point x="0.4" y="0.65"/>
+      <text>SEARCH</text>
+      <font name="GeezaPro-Bold" size="28" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB9</name>
+      <point x="-0.75" y="1.3"/>
+      <text>POP</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB10</name>
+      <point x="-0.75" y="1.7"/>
+      <text>ROCK</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB11</name>
+      <point x="-0.75" y="2.5"/>
+      <text>HIP HOP</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB12</name>
+      <point x="-0.75" y="2.1"/>
+      <text>REGGAE</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB21</name>
+      <point x="3.2" y="5.325"/>
+      <text>KIWI</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB22</name>
+      <point x="-0.7" y="4.5"/>
+      <text>COUNTRY</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB23</name>
+      <point x="-0.7" y="2.9"/>
+      <text>R&amp;B SOUL</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB24</name>
+      <point x="-0.75" y="3.3"/>
+      <text>DANCE</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB25</name>
+      <point x="-0.7" y="4.1"/>
+      <text>BRIT POP</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB27</name>
+      <point x="4.5" y="5.3"/>
+      <text>IRISH</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB28</name>
+      <point x="5.84" y="5.31"/>
+      <text>AUSSIE</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB29</name>
+      <point x="1.9" y="5.34"/>
+      <text>CHOONS</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB30</name>
+      <point x="0.6" y="5.32"/>
+      <text>OBIE BAR</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB31</name>
+      <point x="0.59" y="5.61"/>
+      <text>KARAOKE</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB32</name>
+      <point x="-0.7" y="3.7"/>
+      <text>GRUNGE</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB7</name>
+      <point x="8.35" y="3.95"/>
+      <text>2020&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB8</name>
+      <point x="8.35" y="3.55"/>
+      <text>2010&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB33</name>
+      <point x="8.35" y="3.15"/>
+      <text>2000&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB34</name>
+      <point x="8.35" y="2.75"/>
+      <text>1990&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB35</name>
+      <point x="8.4" y="2.35"/>
+      <text>1980&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB36</name>
+      <point x="8.4" y="1.95"/>
+      <text>1970&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB37</name>
+      <point x="8.4" y="1.55"/>
+      <text>1960&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB38</name>
+      <point x="8.4" y="1.15"/>
+      <text>1950&apos;s</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB26</name>
+      <point x="7.2" y="1.15"/>
+      <text>1960</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB39</name>
+      <point x="7.15" y="1.55"/>
+      <text>1961</text>
+      <font name="Verdana-Bold" size="40" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB40</name>
+      <point x="-0.115" y="-1.35"/>
+      <text>&gt;</text>
+      <font name="Impact" size="140" style="1"/>
+      <color hex="cccccc"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB41</name>
+      <point x="-5.73" y="-1.345"/>
+      <text>&lt;</text>
+      <font name="Impact" size="140" style="1"/>
+      <color hex="cccccc"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB42</name>
+      <point x="0.055" y="-0.43"/>
+      <text>A B C D E F G H  I  J K L M</text>
+      <font name="ArialMT" size="88" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB43</name>
+      <point x="1.665" y="-4.99"/>
+      <text>A B C D E F G H  I  J K L M</text>
+      <font name="ArialMT" size="88" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB44</name>
+      <point x="1.645" y="-4.555"/>
+      <text>N O P Q R S T U V W X Y Z</text>
+      <font name="ArialMT" size="86" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB46</name>
+      <point x="9.71" y="-3.985"/>
+      <text>#&lt;br&gt;0-9</text>
+      <font name="ArialMT" size="44" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB47</name>
+      <point x="6.62" y="-5.45"/>
+      <text>BkSpc</text>
+      <font name="Arial-BoldMT" size="44" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB48</name>
+      <point x="7.5" y="-5.445"/>
+      <text>DONE</text>
+      <font name="Arial-BoldMT" size="44" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB50</name>
+      <point x="2.595" y="-5.47"/>
+      <text>enter search ...</text>
+      <font name="Arial-ItalicMT" size="44" style="2"/>
+      <color hex="cccccc"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB51</name>
+      <point x="3.515" y="-5.92"/>
+      <text>BROWSE ARTISTS</text>
+      <font name="Arial-BoldMT" size="44" style="1"/>
+      <color hex="0000ff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB52</name>
+      <point x="5.825" y="-5.905"/>
+      <text>BROWSE SONGS</text>
+      <font name="Arial-BoldMT" size="44" style="1"/>
+      <color hex="0033ff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB53</name>
+      <point x="1.84" y="-5.9"/>
+      <text>SEARCH ALL</text>
+      <font name="Arial-BoldMT" size="44" style="1"/>
+      <color hex="ffffff"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB55</name>
+      <point x="10.4" y="-4.8"/>
+      <text>SPACE</text>
+      <font name="Arial-ItalicMT" size="40" style="2"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB49</name>
+      <point x="2.065" y="-5.465"/>
+      <text>BACK</text>
+      <font name="Arial-BoldMT" size="44" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB56</name>
+      <point x="9.03" y="-2.97"/>
+      <text>BROWSING ARTISTS BY NAME</text>
+      <font name="Arial-ItalicMT" size="44" style="2"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB57</name>
+      <point x="8.995" y="-2.21"/>
+      <text>BROWSING SONGS BY TITLE</text>
+      <font name="Arial-ItalicMT" size="44" style="2"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB58</name>
+      <point x="10.2" y="-4.01"/>
+      <text>ALL</text>
+      <font name="ArialMT" size="40" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB45</name>
+      <point x="7.505" y="-4.545"/>
+      <text>Space</text>
+      <font name="Arial-BoldMT" size="50" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB59</name>
+      <point x="7.495" y="-5.0"/>
+      <text>#0-9</text>
+      <font name="Arial-BoldMT" size="66" style="1"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB54</name>
+      <point x="1.645" y="-3.4"/>
+      <text>A B C D E F G H  I  J K L</text>
+      <font name="ArialMT" size="84" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB60</name>
+      <point x="1.58" y="-2.99"/>
+      <text>M N O P Q R S T U VW X</text>
+      <font name="ArialMT" size="83" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB61</name>
+      <point x="1.635" y="-2.57"/>
+      <text>Y Z 0  1  2 3  4 5  6 7 8  9</text>
+      <font name="ArialMT" size="83" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+  </components>
+  <groups>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[44]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[38]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[46]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[42]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[41]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[39]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[43]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[40]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[45]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[127]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[126]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[134]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[131]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[124]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[135]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[130]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[133]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[125]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[123]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[128]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[129]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[136]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[132]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[17]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[16]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[13]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[15]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[14]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[18]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[62]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[60]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[58]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[64]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[63]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[57]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[59]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[56]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[61]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[28]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[11]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[12]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[29]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[26]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[25]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[30]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[27]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[94]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[97]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[100]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[102]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[99]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[98]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[101]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[96]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[95]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[54]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[55]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[52]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[53]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[51]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[48]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[49]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[47]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[50]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[5]"/>
+    </set>
+    <set>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[21]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[19]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[9]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[23]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[22]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[24]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle[20]"/>
+    </set>
+  </groups>
+  <lockedLayers/>
+  <lockedComponents>
+    <diylc.shapes.Rectangle reference="../../components/diylc.shapes.Rectangle[31]"/>
+  </lockedComponents>
+  <hiddenLayers/>
+  <font name="GeezaPro" size="14" style="0"/>
+</project>

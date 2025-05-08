@@ -1,0 +1,150 @@
+import json
+import os
+import requests
+import time
+from urllib.parse import quote
+
+# Configuration
+IMVDB_API_KEY = "g62MJ5GkeTWY2kLtrp42EKqi0j8DbSLaMiNKJic8"
+IMVDB_API_URL = "https://imvdb.com/api/v1"
+INPUT_FILE1 = os.path.expanduser("~/ALL_SONG_LIST_A-Z_with_youtube_scraped.json")
+INPUT_FILE2 = os.path.expanduser("~/Original_Obie_MasterDB_SCHEMA.json")
+OUTPUT_FILE = os.path.expanduser("~/Music_Video_Collection.json")
+
+# Rate limiting setup
+RATE_LIMIT = 800  # requests per minute
+MIN_INTERVAL = 60.0 / RATE_LIMIT
+last_request_time = 0
+
+def rate_limited_request(url):
+    global last_request_time
+    elapsed = time.time() - last_request_time
+    if elapsed < MIN_INTERVAL:
+        time.sleep(MIN_INTERVAL - elapsed)
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        last_request_time = time.time()
+        return response.json()
+    except Exception as e:
+        print(f"Request failed: {e}")
+        return None
+
+def get_imvdb_data(artist, song_title):
+    try:
+        search_url = f"{IMVDB_API_URL}/search/videos?q={quote(artist)}+{quote(song_title)}&access_token={IMVDB_API_KEY}"
+        search_data = rate_limited_request(search_url)
+        
+        if not search_data or not search_data.get("results"):
+            return {"Year": None, "Duration": None, "Genres": None}
+
+        video_id = search_data["results"][0]["id"]
+        video_url = f"{IMVDB_API_URL}/video/{video_id}?access_token={IMVDB_API_KEY}"
+        video_data = rate_limited_request(video_url)
+
+        result = {"Year": None, "Duration": None, "Genres": None}
+        if video_data:
+            # Extract year from release date
+            if video_data.get("release_date"):
+                result["Year"] = video_data["release_date"][:4]
+            # Extract duration in seconds
+            result["Duration"] = video_data.get("duration")
+            # Extract genres
+            result["Genres"] = [g["name"] for g in video_data.get("genres", [])]
+        
+        return result
+    except Exception as e:
+        print(f"IMVDB lookup error: {e}")
+        return {"Year": None, "Duration": None, "Genres": None}
+
+def load_and_merge_files():
+    merged = {}
+    
+    for file_path in [INPUT_FILE1, INPUT_FILE2]:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                songs = data.get("Videos", {}).get("Video", [])
+                for song in songs:
+                    key = (song.get("Artist", "").lower(), song.get("SongTitle", "").lower())
+                    if not key[0] or not key[1]:
+                        continue
+                    
+                    if key in merged:
+                        existing = merged[key]
+                        for field in ["Year", "Duration", "Genres", "VideoID", "ThumbnailURL", "PlayCount"]:
+                            if field in song and (existing.get(field) is None):
+                                existing[field] = song[field]
+                    else:
+                        new_entry = {
+                            "Artist": song.get("Artist"),
+                            "SongTitle": song.get("SongTitle"),
+                            "Year": song.get("Year"),
+                            "VideoID": song.get("VideoID"),
+                            "Duration": song.get("Duration"),
+                            "ThumbnailURL": song.get("ThumbnailURL"),
+                            "Genres": song.get("Genres"),
+                            "PlayCount": song.get("PlayCount", 0)
+                        }
+                        merged[key] = new_entry
+        except Exception as e:
+            print(f"Error processing {file_path}: {e}")
+    
+    return list(merged.values())
+
+def process_songs():
+    # Load and merge data
+    merged_songs = load_and_merge_files()
+    
+    # Enrich with IMVDB data
+    for song in merged_songs:
+        if song["Year"] is None or song["Duration"] is None or song["Genres"] is None:
+            imvdb_data = get_imvdb_data(song["Artist"], song["SongTitle"])
+            if song["Year"] is None:
+                song["Year"] = imvdb_data["Year"]
+            if song["Duration"] is None:
+                song["Duration"] = imvdb_data["Duration"]
+            if song["Genres"] is None:
+                song["Genres"] = imvdb_data["Genres"]
+    
+    # Sort by Artist and SongTitle
+    sorted_songs = sorted(merged_songs, key=lambda x: (x["Artist"].lower(), x["SongTitle"].lower()))
+    
+    # Generate IDs
+    current_artist = None
+    artist_id = 0
+    song_counter = 0
+    
+    for idx, song in enumerate(sorted_songs):
+        song["Index"] = idx + 1
+        song["Validated"] = bool(song.get("VideoID"))
+        song["Genre"] = song["Genres"][0] if song["Genres"] else None
+        
+        if song["Artist"] != current_artist:
+            current_artist = song["Artist"]
+            artist_id += 1
+            song_counter = 1
+        else:
+            song_counter += 1
+        
+        song["ArtistID"] = artist_id
+        song["SongID"] = (artist_id * 100) + song_counter
+    
+    # Create final output structure
+    output = {
+        "Videos": {
+            "Video": sorted_songs
+        }
+    }
+    
+    # Write output
+    try:
+        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+        print(f"Successfully created {OUTPUT_FILE} with {len(sorted_songs)} entries")
+    except Exception as e:
+        print(f"Error writing output file: {e}")
+
+if __name__ == "__main__":
+    process_songs()
+ø
