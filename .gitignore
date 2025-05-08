@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -37,3 +38,24 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+=======
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build output
+build/
+dist/
+
+# Logs
+logs/
+*.log
+>>>>>>> origin/development

@@ -1,0 +1,461 @@
+<!-- Admin Panel Main Container -->
+<div id="admin-panel" class="admin-container">
+    <!-- Header -->
+    <div class="admin-header">
+        <h1>ADMIN PANEL - SETTINGS & OPTIONS</h1>
+        <button id="admin-close">Close</button>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="admin-tabs">
+        <button class="tab-btn active" data-tab="credits">Credits</button>
+        <button class="tab-btn" data-tab="bgm">BGM Playlist</button>
+        <button class="tab-btn" data-tab="main-ui">Main UI Options</button>
+        <button class="tab-btn" data-tab="player">Video Player</button>
+        <button class="tab-btn" data-tab="playlists">Playlists</button>
+        <button class="tab-btn" data-tab="attract">Attract Mode</button>
+        <button class="tab-btn" data-tab="profile">Profile</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div class="tab-content active" id="credits-tab">
+        <!-- Credits Settings -->
+        <div class="settings-group">
+            <h2>Credit Settings</h2>
+            
+            <div class="setting-item">
+                <label>Credit Value</label>
+                <div class="value-controls">
+                    <button class="btn minus" data-action="subtract">-</button>
+                    <span id="credits-value">0</span>
+                    <button class="btn plus" data-action="add">+</button>
+                </div>
+            </div>
+
+            <div class="setting-item">
+                <label>Credit Mode</label>
+                <select id="credits-mode">
+                    <option value="FREE-PLAY">FREE-PLAY</option>
+                    <option value="COIN-PLAY">COIN-PLAY</option>
+                    <option value="AUTO-CREDIT">AUTO-CREDIT</option>
+                </select>
+            </div>
+
+            <div class="setting-item">
+                <label>Credit Serial Device</label>
+                <select id="credits-serial">
+                    <option value="">Select Serial Device</option>
+                    <!-- Populated dynamically -->
+                </select>
+            </div>
+
+            <div class="setting-item">
+                <label>Coin Serial Key 1</label>
+                <input type="text" id="credits-coins-key-1" value="b">
+            </div>
+
+            <div class="setting-item">
+                <label>Coin Serial Key 2</label>
+                <input type="text" id="credits-coins-key-2" value="a">
+            </div>
+
+            <div class="setting-item">
+                <label>Coin Credit Value 2</label>
+                <input type="number" id="credits-coins-credit-2" min="0" value="1">
+            </div>
+        </div>
+    </div>
+
+    <!-- Playlists Tab -->
+    <div class="tab-content" id="playlists-tab">
+        <div class="settings-group">
+            <h2>Playlists Management</h2>
+            
+            <!-- Playlist Viewer -->
+            <div class="playlist-viewer">
+                <h3>Playlists</h3>
+                <div id="playlist-list">
+                    <!-- Playlists will be populated dynamically -->
+                </div>
+            </div>
+
+            <!-- Add Playlist Section -->
+            <div class="setting-item">
+                <h3>Add New Playlist</h3>
+                <div class="playlist-add-form">
+                    <input type="text" id="playlist-id" placeholder="YouTube Playlist ID">
+                    <button id="validate-playlist">Validate</button>
+                    <button id="add-playlist">Add Playlist</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Attract Mode Tab -->
+    <div class="tab-content" id="attract-tab">
+        <div class="settings-group">
+            <h2>Attract Mode Settings</h2>
+            
+            <!-- Idle Interval -->
+            <div class="setting-item">
+                <label>Idle Interval</label>
+                <div class="idle-interval-controls">
+                    <input type="checkbox" id="idle-enabled">
+                    <div class="slider-container">
+                        <input type="range" id="idle-interval" min="30" max="600" step="30" value="30">
+                        <span id="idle-value">30</span> seconds
+                    </div>
+                </div>
+            </div>
+
+            <!-- Source Selection -->
+            <div class="setting-item">
+                <label>Idle Source</label>
+                <div class="source-selection">
+                    <select id="idle-source">
+                        <option value="PROMO">PROMO (Local Media)</option>
+                        <option value="ARTISTS">ARTISTS (Random Thumbnails)</option>
+                        <option value="PLAYER">PLAYER (Current Player)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- PROMO Media Settings -->
+            <div class="setting-item promo-settings" style="display: none;">
+                <label>PROMO Media</label>
+                <div class="promo-media-controls">
+                    <div class="media-upload">
+                        <input type="file" id="promo-media" accept="image/*,video/*" multiple>
+                        <div id="promo-media-preview" class="media-preview">
+                            <!-- Media preview will be shown here -->
+                        </div>
+                    </div>
+                    <div class="media-options">
+                        <label>Transition Style</label>
+                        <select id="promo-transition">
+                            <option value="fade">Fade</option>
+                            <option value="slide">Slide</option>
+                            <option value="zoom">Zoom</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ARTISTS Settings -->
+            <div class="setting-item artists-settings" style="display: none;">
+                <label>ARTISTS Display</label>
+                <div class="artists-options">
+                    <div class="style-selection">
+                        <label>Style</label>
+                        <select id="artists-style">
+                            <option value="classic">Classic</option>
+                            <option value="modern">Modern</option>
+                            <option value="retro">Retro</option>
+                        </select>
+                    </div>
+                    <div class="transition-selection">
+                        <label>Transition</label>
+                        <select id="artists-transition">
+                            <option value="fade">Fade</option>
+                            <option value="slide">Slide</option>
+                            <option value="random">Random</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PLAYER Settings -->
+            <div class="setting-item player-settings" style="display: none;">
+                <label>PLAYER Display</label>
+                <div class="player-options">
+                    <div class="player-controls">
+                        <label>Controls</label>
+                        <select id="player-controls">
+                            <option value="show">Show</option>
+                            <option value="hide">Hide</option>
+                        </select>
+                    </div>
+                    <div class="player-quality">
+                        <label>Quality</label>
+                        <select id="player-quality">
+                            <option value="auto">Auto</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Player Tab -->
+    <div class="tab-content" id="player-tab">
+        <div class="settings-group">
+            <h2>Player Settings</h2>
+            
+            <!-- Display Selection -->
+            <div class="setting-item">
+                <label>Display</label>
+                <select id="player-display">
+                    <!-- Populated dynamically with available displays -->
+                </select>
+            </div>
+
+            <!-- Fullscreen Toggle -->
+            <div class="setting-item">
+                <label>Fullscreen</label>
+                <div class="toggle-container">
+                    <input type="checkbox" id="player-fullscreen">
+                    <label for="player-fullscreen">Enable Fullscreen</label>
+                </div>
+            </div>
+
+            <!-- Banner Settings -->
+            <div class="setting-item">
+                <label>Banner</label>
+                <div class="banner-controls">
+                    <div class="banner-toggle">
+                        <input type="checkbox" id="player-banner-enabled">
+                        <label for="player-banner-enabled">Enable Banner</label>
+                    </div>
+                    <div class="banner-text">
+                        <label>Banner Text</label>
+                        <input type="text" id="player-banner-text" placeholder="Custom banner text (optional)">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Tab -->
+    <div class="tab-content" id="profile-tab">
+        <div class="settings-group">
+            <h2>Profile Settings</h2>
+            
+            <!-- Subdomain Settings -->
+            <div class="setting-item">
+                <label>User Subdomain</label>
+                <div class="subdomain-controls">
+                    <input type="text" id="profile-subdomain" placeholder="Enter subdomain (e.g., 'mikes')">
+                    <div class="subdomain-preview">
+                        Your URL will be: <span id="subdomain-preview">https://<span class="subdomain-value">mikes</span>.obie.juke</span>
+                    </div>
+                    <div class="subdomain-status" id="subdomain-status"></div>
+                </div>
+            </div>
+
+            <!-- Subdomain Validation -->
+            <div class="setting-item">
+                <div class="validation-rules">
+                    <h3>Subdomain Rules</h3>
+                    <ul>
+                        <li>Must be unique</li>
+                        <li>Only letters and numbers</li>
+                        <li>3-15 characters long</li>
+                        <li>No special characters</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-content" id="bgm-tab">
+        <!-- BGM Playlist Settings -->
+        <div class="settings-group">
+            <h2>BGM Playlist Settings</h2>
+            <!-- Add BGM settings here -->
+        </div>
+    </div>
+
+    <div class="tab-content" id="main-ui-tab">
+        <!-- Main UI Settings -->
+        <div class="settings-group">
+            <h2>Main UI Settings</h2>
+            <!-- Add UI settings here -->
+        </div>
+    </div>
+
+    <div class="tab-content" id="player-tab">
+        <!-- Video Player Settings -->
+        <div class="settings-group">
+            <h2>Video Player Settings</h2>
+            <!-- Add player settings here -->
+        </div>
+    </div>
+
+    <!-- Save/Reset Buttons -->
+    <div class="admin-actions">
+        <button id="save-settings">Save All Settings</button>
+        <button id="reset-settings">Reset to Defaults</button>
+    </div>
+</div>
+
+<style>
+.admin-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    color: white;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #4CAF50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.admin-close {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-close:hover {
+    background: #555;
+}
+
+.admin-tabs {
+    display: flex;
+    border-bottom: 2px solid #4CAF50;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background: #666;
+    color: white;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.tab-btn.active {
+    background: #4CAF50;
+}
+
+.tab-content {
+    flex: 1;
+    padding: 20px;
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.settings-group {
+    margin-bottom: 30px;
+}
+
+.settings-group h2 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.setting-item {
+    margin-bottom: 20px;
+}
+
+.setting-item label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.value-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    background: #666;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+select, input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.admin-actions {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 2px solid #4CAF50;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#save-settings {
+    background: #4CAF50;
+    color: white;
+}
+
+#save-settings:hover {
+    background: #45a049;
+}
+
+#reset-settings {
+    background: #666;
+    color: white;
+}
+
+#reset-settings:hover {
+    background: #555;
+}
+
+@media (max-width: 768px) {
+    .admin-tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab-btn {
+        flex: 1;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+</style>

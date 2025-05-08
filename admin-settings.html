@@ -1,0 +1,230 @@
+<!-- Admin Settings Panel -->
+<div id="admin-settings" class="admin-panel">
+    <h2>Admin Settings</h2>
+    
+    <div class="settings-section">
+        <h3>Volume Control</h3>
+        <div class="range-container">
+            <input type="range" id="volume-control" min="0" max="100" value="100">
+            <span id="volume-value">100%</span>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h3>Queue Settings</h3>
+        <div class="input-group">
+            <label>
+                Maximum Queue Length:
+                <input type="number" id="queue-limit" min="1" max="100" value="10">
+            </label>
+            <label>
+                Queue Timeout (minutes):
+                <input type="number" id="queue-timeout" min="1" max="120" value="30">
+            </label>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h3>Playback Settings</h3>
+        <div class="checkbox-group">
+            <label>
+                <input type="checkbox" id="autoplay-toggle" checked>
+                Autoplay Videos
+            </label>
+            <label>
+                <input type="checkbox" id="shuffle-toggle">
+                Shuffle Queue
+            </label>
+            <label>
+                <input type="checkbox" id="repeat-toggle">
+                Repeat Playlist
+            </label>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h3>Video Quality</h3>
+        <div class="quality-options">
+            <label>
+                <input type="radio" name="quality" value="auto" checked>
+                Auto
+            </label>
+            <label>
+                <input type="radio" name="quality" value="1080p">
+                1080p
+            </label>
+            <label>
+                <input type="radio" name="quality" value="720p">
+                720p
+            </label>
+            <label>
+                <input type="radio" name="quality" value="480p">
+                480p
+            </label>
+        </div>
+    </div>
+
+    <div class="settings-section">
+        <h3>Custom URL</h3>
+        <div id="custom-url-display" class="url-display">
+            Your custom URL will appear here after registration
+        </div>
+    </div>
+
+    <div class="button-group">
+        <button id="save-settings" class="primary-button">Save Settings</button>
+        <button id="reset-settings" class="secondary-button">Reset to Defaults</button>
+    </div>
+</div>
+
+<style>
+.admin-panel {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.settings-section {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+}
+
+.settings-section h3 {
+    margin: 0 0 15px 0;
+    color: #ccc;
+    font-size: 1.1em;
+}
+
+.range-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="range"] {
+    flex: 1;
+    height: 8px;
+    -webkit-appearance: none;
+    background: #666;
+    border-radius: 4px;
+    margin: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quality-options {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.quality-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.url-display {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.primary-button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.primary-button:hover {
+    background: #45a049;
+}
+
+.secondary-button {
+    background: #666;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.secondary-button:hover {
+    background: #555;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+    .admin-panel {
+        margin: 10px;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .quality-options {
+        flex-direction: column;
+    }
+}
+</style>
+</style>
