@@ -1,5 +1,38 @@
 [
   {
+  "artist_name": "Leonard Cohen",
+  "mbid": "f2006e98-857a-4c1f-8e7e-dc3e0b8c2e94",
+  "music_videos": [
+    {
+      "title": "Hallelujah",
+      "youtube_url": "https://www.youtube.com/watch?v=YrLk4vdY28Q",
+      "track_thumb": "https://img.youtube.com/vi/YrLk4vdY28Q/default.jpg"
+    }
+  ]
+},
+{
+  "artist_name": "Andrea Bocelli with Sarah Brightman",
+  "mbid": "4d5447d7-c61c-4120-ba1b-d7f471d385b9",
+  "music_videos": [
+    {
+      "title": "Time To Say Goodbye",
+      "youtube_url": "https://www.youtube.com/watch?v=4L_yCwFD6Jo",
+      "track_thumb": "https://img.youtube.com/vi/4L_yCwFD6Jo/default.jpg"
+    }
+  ]
+},
+{
+  "artist_name": "Kris Kristofferson",
+  "mbid": "89ad4ac3-39f7-470e-963a-56509c546377",
+  "music_videos": [
+    {
+      "title": "Sunday Morning Coming Down",
+      "youtube_url": "https://www.youtube.com/watch?v=vbqGWTxwZEA",
+      "track_thumb": "https://img.youtube.com/vi/vbqGWTxwZEA/default.jpg"
+    }
+  ]
+},
+{
     "artist_name": "Queen",
     "mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
     "music_videos": [
